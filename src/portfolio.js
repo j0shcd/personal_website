@@ -4,11 +4,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Rohan Kokkula | Portfolio",
+  title: "Killian Hinard | Portfolio",
   description:
     "A Data Science practitioner who thrives to leverage startups with AI based solutions with a blend of UI/UX",
   og: {
-    title: "Rohan Portfolio",
+    title: "Killian Portfolio",
     type: "website",
     url: "http://rohankokkula.ml/",
   },
@@ -16,10 +16,10 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Namaste!",
-  sub: "Rohan Kokkula",
-  logo_name: "Rohan Kokkula",
-  resumeLink: "",
+  title: "Bonjour!",
+  sub: "Killian Hinard",
+  logo_name: "Killian Hinard",
+  resumeLink: "www.google.com",
 };
 
 // home logos
@@ -33,46 +33,46 @@ const competitiveSites = {
       },
       profileLink: "https://github.com/rohankokkula",
     },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/rohankokkula01",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/rohan0301",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@rohankokkula",
-    },
-    {
-      siteName: "LinkedIn",
-      iconifyClassname: "simple-icons:linkedin",
-      style: {
-        color: "#0077b5",
-      },
-      profileLink: "https://www.linkedin.com/in/rohankokkula/",
-    },
-    {
-      siteName: "HashNode",
-      iconifyClassname: "simple-icons:hashnode",
-      style: {
-        color: "#2962ff",
-      },
-      profileLink: "",
-    },
+    // {
+    //   siteName: "HackerRank",
+    //   iconifyClassname: "simple-icons:hackerrank",
+    //   style: {
+    //     color: "#2EC866",
+    //   },
+    //   profileLink: "https://www.hackerrank.com/rohankokkula01",
+    // },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
+    //   },
+    //   profileLink: "https://www.kaggle.com/rohan0301",
+    // },
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
+    //   },
+    //   profileLink: "https://www.hackerearth.com/@rohankokkula",
+    // },
+    // {
+    //   siteName: "LinkedIn",
+    //   iconifyClassname: "simple-icons:linkedin",
+    //   style: {
+    //     color: "#0077b5",
+    //   },
+    //   profileLink: "https://www.linkedin.com/in/rohankokkula/",
+    // },
+    // {
+    //   siteName: "HashNode",
+    //   iconifyClassname: "simple-icons:hashnode",
+    //   style: {
+    //     color: "#2962ff",
+    //   },
+    //   profileLink: "",
+    // },
   ],
 };
 
@@ -449,51 +449,45 @@ const projectcards = {
 
 const resumeleft = {
   left: {
-    title: ["Experience"],
+    title: ["Education"],
     data: [
       {
-        title: "Data Scientist",
-        subtitle: "Nactus India Services Private Limited",
-        date: "June 2020 - present",
+        title: "MSc in Robotics with a minor in Data Science",
+        subtitle:
+          "École polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland",
+        date: "September 2022 - present",
         content: [
-          "Used T5 Transformer Model to build a Question Answering Model which generates questions based on Keywords extracted (WordNet, Sense2Vec) from studyshot notes.",
-          "Built an MCQ Generation model using BERT",
-          "Developed a personalized Chatbot using Rasa (Botfront.io).",
-          "Created an Automatic Thumbnail Generator & Uploader for our youtube videos using Youtube v3 API",
-          "Working on OpenAI's semantic search engine.",
-          "Created a Clean MaterialUI Design for prototyping and design fixing before production-ready of APP",
-          "Created FrontEnd components for StudyShot website",
-          "Working on recommendation system for concept notes and questions based on student's behavior on our Flutter App(tracking)",
+          "Technical Coursework and Projects in Machine Learning, Deep Learning, Computer Vision, Reinforcement learning, Mechanical Engineering, Multivariable Control, Automatic, Model Predictive Control, Evolutive and Genetic Algorithms, Intelligent Agent, DevOps.",
+          "Minor in Data Science with courses in Applied Data Analysis, Computer Networks, Data Visualisation, Database, Large-scale data management and analysis, Data cleaning",
+          "🔸 current GPA: 5.35/6",
         ],
       },
       {
-        title: "Machine Learning Intern",
-        subtitle: "Listnr",
-        date: "April 2020 - June 2020",
+        title: "Academic Exchange",
+        subtitle: "Royal Institute of Technology (KTH), Stockholm, Sweden",
+        date: "August 2021 - June 2022",
         content: [
-          "My role at Listnr included a lot of research work about Audio Encoders and Vocoders and Speech Synthesis in general.",
-          "Worked on some SOTA Inference TTS Models such as TacoTron2, FastSpeech2, and Wavenet.",
-          "Also had hands-on with real-time voice cloning algorithm.",
+          "Signal/Stochastic Processing, Embedded and real-time systems, Automatic Control, MEMS, Sensor based systems, Machine Learning and Neuroscience.",
         ],
       },
       {
-        title: "Data Science Intern",
-        subtitle: "iNeuron.ai",
-        date: "Nov 2020 - January 2021",
+        title: "BSc in Microengineering",
+        subtitle:
+          "École polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland",
+        date: "September 2019 - June 2022",
         content: [
-          "Phase 1 included Data Cleaning & Data Annotation for object detection task",
-          "Used YOLO v5 for Fire Detection Project",
+          "Basic sciences (Physics, Linear Algebra, Calculus, Chemistry), Object Oriented Programming (C++), Experimental Statistics, Computer Science Theory, Analog Devices, Micro-Mechanical engineering, Basic of Electronics.",
+          "🔸 GPA: 4.99/6",
         ],
       },
       {
-        title: "Summer Analytics Participant",
-        subtitle: "IIT Guwahati",
-        date: "April 2020 - June 2020",
+        title: "Baccalaureate in Science",
+        subtitle:
+          "High School, Lycée Madame de Staël, Saint-Julien-en-Genevois, France",
+        date: "September 2016 - July 2019",
         content: [
-          "Learnt & applied various Machine Learning libraries",
-          "Had hands-on with Data Visualization techniques using matplotlib, plotly, streamlit",
-          "Understood and applied Neural networks using Tensorflow and finally competed in Kaggle Hackathon ranking 135 (top 16 percentile) among 854 Kaggle participants",
-          "Ranked 85 out of 1500+ students for overall performance.",
+          "High School Diploma with a focus on Sciences (Mathematics, Physics, Chemistry, Biology).",
+          "🔸 Grade: 18.28/20, Congratulations from the jury",
         ],
       },
     ],
@@ -503,57 +497,70 @@ const resumeleft = {
 const resumeright = {
   right: [
     {
-      title: ["Education"],
+      title: ["Professional Experience"],
       data: [
         {
-          title: "Bachelor of Engineering in Information Technology",
-          subtitle: "Vidyalankar Institute of Technology, Mumbai",
-          date: "2016 - 2020",
-          content: ["CGPA: 8.06/10"],
+          title:
+            "Teaching assistant in Mathematics for Criminal Sciences students",
+          subtitle: "Université de Lausanne (UNIL), Lausanne, Switzerland",
+          date: "September 2022 - present",
+          content: [
+            "Assist the teacher in explaining to student mathematical concept.",
+            "Help student during exercises session.",
+            "Help the teacher with examination surveillance.",
+          ],
         },
         {
-          title: "Higher Secondary Certificate [HSC]",
-          subtitle: "Dr. Antonio Da Silva Technical Jr. College, Mumbai",
-          date: "2014 - 2016",
-          content: ["Precentage: 80%"],
+          title:
+            "Teaching assistant in Mathematics for Bioscience and Pharmaceutical student at UNIL",
+          subtitle: "Université de Lausanne (UNIL), Lausanne, Switzerland",
+          date: "September 2023 - present",
+          content: [
+            "Assist the teacher in explaining to student mathematical concept.",
+            "Help student during exercises session.",
+            "Help the teacher with examination surveillance.",
+          ],
+        },
+        {
+          title: "Laboratory assistant",
+          subtitle: "Geneva Hospital (HUG), Geneva, Switzerland",
+          date: "Summer 2022 and 2023",
+          content: [
+            "Reception of medical samples, applying the necessary treatments before analysis",
+            "Distribution to the correct laboratories in the central laboratory building of the hospital",
+            "Preparation of laboratory equipment orders, and deliveries to the right laboratories.",
+          ],
         },
       ],
     },
     {
-      title: ["Ranks and Achivements"],
+      title: ["Extracurricular Activities"],
       data: [
         {
-          title: "Ranks",
+          title: "Board Member, Webmaster ESN EPFL",
+          subtitle: "Erasmus Student Network Association (ESN) of EPFL",
+          date: "January 2024 - present",
           content: [
-            "#135/854 in Summer Analytics Kaggle Competition by IITG",
-            "#113/5064 in CV-NLP Hackathon by HackerEarth",
+            "Managing of the Erasmus Student Network (ESN) website and digital resources, ensuring efficient operation and user accessibility.",
+            "Contribute to the strategic leadership of the association, participating actively in decision-making processes and organizational management.",
+            "Collaborated with the communication team to ensure the quality and accuracy of event descriptions published on the website.",
           ],
         },
         {
-          title: "Achievements",
+          title: "Committee Member ESN EPFL",
+          subtitle: "Erasmus Student Network Association (ESN) of EPFL",
+          date: "September 2023 - January 2024",
           content: [
-            "Designing Team Head at ACM-VIT",
-            "5⭐ Gold Badges for Python & Problem Solving at HackerRank ",
-            "Tableau Analyst & Consumer Badge by Tableau Official",
-          ],
-        },
-      ],
-    },
-    {
-      title: ["Freelance Work"],
-      data: [
-        {
-          title: "Consultancy Website",
-          subtitle: "kidsworldeducationconsultants.com",
-          content: [
-            "Created and hosted a website for consultancy providers in Kids Education Domain",
+            "Organized events for Erasmus students, overseeing all aspects including budget management, ticket pricing, promotional activities, and staff recruitment.",
+            "Actively engaged in the association's life, participating in weekly meetings",
           ],
         },
         {
-          title: "Portfolio Website",
-          subtitle: "pranavphulware.netlify.app",
+          title: "Member of Robopoly",
+          subtitle: "Robopoly, Robotics association of EPFL",
+          date: "September 2019 - June 2020",
           content: [
-            "Built a personal Filmography portfolio for a friend and later hosted it at Netlify",
+            "Developing hands on project on the subject of robotic and embedded systems, soldering, creating PCB and 3D-printing.",
           ],
         },
       ],
@@ -562,116 +569,116 @@ const resumeright = {
 };
 
 //certificate cards
-const certifications = {
-  certifications: [
-    {
-      title: "Tableau Analyst",
-      subtitle: "Tableau",
-      logo_path: "tabana-01.png",
-      certificate_link:
-        "https://www.credly.com/badges/2d43f401-7be0-407d-9a77-7477dda8cade/linked_in_profile",
-      alt_name: "Tableau",
-      color_code: "#000000",
-    },
-    {
-      title: "Tableau Consumer",
-      subtitle: "Tableau",
-      logo_path: "tabcon-01.png",
-      certificate_link:
-        "https://www.credly.com/badges/e5befe7b-2eec-486f-b77e-bd2458c18b26/linked_in_profile",
-      alt_name: "Tableau",
-      color_code: "#000000",
-    },
-    {
-      title: "Problem solving",
-      subtitle: "HackerRank",
-      logo_path: "problem-01.png",
-      certificate_link: "https://www.hackerrank.com/rohankokkula",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Python",
-      subtitle: "HackerRank",
-      logo_path: "python-01.png",
-      certificate_link: "https://www.hackerrank.com/rohankokkula",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Certificate of Merit",
-      subtitle: "Summer Analytics | IIT Guwahati",
-      logo_path: "iitg-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "IITG",
-      color_code: "#000000",
-    },
-    {
-      title: "Tableau Desktop Qualified Associate",
-      subtitle: "SimpliLearn",
-      logo_path: "simplilearn-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Simplilearn",
-      color_code: "#000000",
-    },
-    {
-      title: "Question Generation using Transformers",
-      subtitle: "Udemy",
-      logo_path: "udemy-01.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-b17c4c21-91e3-4f8b-b9c2-259468910985/",
-      alt_name: "Udemy",
-      color_code: "#000000",
-    },
-    {
-      title: "Machine Learning",
-      subtitle: "Stanford University",
-      logo_path: "coursera-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#000000",
-    },
-    {
-      title: "Data Visualization",
-      subtitle: "University of Michigan",
-      logo_path: "coursera-01.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "University of Michigan",
-      color_code: "#000000",
-    },
-    {
-      title: "Data Scientist Career Track",
-      subtitle: "DataCamp",
-      logo_path: "datacamp-01.png",
-      certificate_link:
-        "https://www.datacamp.com/statement-of-accomplishment/track/29f2ddab3fbfd0a470713a19c729c0f9d89c88aa",
-      alt_name: "DataCamp",
-      color_code: "#000000",
-    },
-    {
-      title: "PowerBI Masters",
-      subtitle: "iNeuron.ai",
-      logo_path: "ineuron-01.png",
-      certificate_link:
-        "https://academy.ineuron.ai/certificates/downloads/PB009929.pdf",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-    {
-      title: "Tableau Masters",
-      subtitle: "iNeuron.ai",
-      logo_path: "ineuron-01.png",
-      certificate_link:
-        "https://academy.ineuron.ai/certificates/downloads/TB000634.pdf",
-      alt_name: "HackerRank",
-      color_code: "#000000",
-    },
-  ],
-};
+// const certifications = {
+//   certifications: [
+//     {
+//       title: "Tableau Analyst",
+//       subtitle: "Tableau",
+//       logo_path: "tabana-01.png",
+//       certificate_link:
+//         "https://www.credly.com/badges/2d43f401-7be0-407d-9a77-7477dda8cade/linked_in_profile",
+//       alt_name: "Tableau",
+//       color_code: "#000000",
+//     },
+//     {
+//       title: "Tableau Consumer",
+//       subtitle: "Tableau",
+//       logo_path: "tabcon-01.png",
+//       certificate_link:
+//         "https://www.credly.com/badges/e5befe7b-2eec-486f-b77e-bd2458c18b26/linked_in_profile",
+//       alt_name: "Tableau",
+//       color_code: "#000000",
+//     },
+//     {
+//       title: "Problem solving",
+//       subtitle: "HackerRank",
+//       logo_path: "problem-01.png",
+//       certificate_link: "https://www.hackerrank.com/rohankokkula",
+//       alt_name: "HackerRank",
+//       color_code: "#000000",
+//     },
+//     {
+//       title: "Python",
+//       subtitle: "HackerRank",
+//       logo_path: "python-01.png",
+//       certificate_link: "https://www.hackerrank.com/rohankokkula",
+//       alt_name: "HackerRank",
+//       color_code: "#000000",
+//     },
+//     {
+//       title: "Certificate of Merit",
+//       subtitle: "Summer Analytics | IIT Guwahati",
+//       logo_path: "iitg-01.png",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+//       alt_name: "IITG",
+//       color_code: "#000000",
+//     },
+//     {
+//       title: "Tableau Desktop Qualified Associate",
+//       subtitle: "SimpliLearn",
+//       logo_path: "simplilearn-01.png",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+//       alt_name: "Simplilearn",
+//       color_code: "#000000",
+//     },
+//     {
+//       title: "Question Generation using Transformers",
+//       subtitle: "Udemy",
+//       logo_path: "udemy-01.png",
+//       certificate_link:
+//         "https://www.udemy.com/certificate/UC-b17c4c21-91e3-4f8b-b9c2-259468910985/",
+//       alt_name: "Udemy",
+//       color_code: "#000000",
+//     },
+//     {
+//       title: "Machine Learning",
+//       subtitle: "Stanford University",
+//       logo_path: "coursera-01.png",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+//       alt_name: "Stanford University",
+//       color_code: "#000000",
+//     },
+//     {
+//       title: "Data Visualization",
+//       subtitle: "University of Michigan",
+//       logo_path: "coursera-01.png",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+//       alt_name: "University of Michigan",
+//       color_code: "#000000",
+//     },
+//     {
+//       title: "Data Scientist Career Track",
+//       subtitle: "DataCamp",
+//       logo_path: "datacamp-01.png",
+//       certificate_link:
+//         "https://www.datacamp.com/statement-of-accomplishment/track/29f2ddab3fbfd0a470713a19c729c0f9d89c88aa",
+//       alt_name: "DataCamp",
+//       color_code: "#000000",
+//     },
+//     {
+//       title: "PowerBI Masters",
+//       subtitle: "iNeuron.ai",
+//       logo_path: "ineuron-01.png",
+//       certificate_link:
+//         "https://academy.ineuron.ai/certificates/downloads/PB009929.pdf",
+//       alt_name: "HackerRank",
+//       color_code: "#000000",
+//     },
+//     {
+//       title: "Tableau Masters",
+//       subtitle: "iNeuron.ai",
+//       logo_path: "ineuron-01.png",
+//       certificate_link:
+//         "https://academy.ineuron.ai/certificates/downloads/TB000634.pdf",
+//       alt_name: "HackerRank",
+//       color_code: "#000000",
+//     },
+//   ],
+// };
 
 // Contact Page
 const contactPageData = {
@@ -679,15 +686,15 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "contact.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Cloud and Opensource Development.",
+      "If you have any questions or would like to discuss potential opportunities, please don't hesitate to contact me. I'm always open to new connections and look forward to hearing from you!",
   },
   addressSection: {
-    title: "Address",
-    subtitle: "Prabhadevi, Mumbai-400025",
+    title: "Current Address",
+    subtitle: "Lausanne, Switzerland",
   },
   phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 9022817659",
+    title: "",
+    subtitle: "",
   },
 };
 
@@ -695,34 +702,16 @@ const contactPageData = {
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/rohankokkula",
+    link: "https://github.com/yseoo",
     iconifyClassname: "simple-icons:hackerrank",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/rohankokkula/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/c/rohanalytics",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
-    link: "mailto:rohankokkula01@gmail.com",
+    link: "mailto:killian.hd@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/soberohan/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -736,7 +725,7 @@ export {
   projectsHeader,
   contactPageData,
   projectcards,
-  certifications,
+  //certifications,
   resumeleft,
   resumeright,
 };

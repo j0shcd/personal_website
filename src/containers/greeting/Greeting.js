@@ -22,20 +22,20 @@ export default function Greeting(props) {
               <h1 className="greeting-sub" style={{ color: theme.grayText }}>
                 I'm <mark data-entity="person">{greeting.sub}</mark>
               </h1>
-              <h1 className="greeting-typewriter" style={{color: theme.blue}}>
+              <h1 className="greeting-typewriter" style={{ color: theme.blue }}>
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Data Scientist(NLP)")
+                      .typeString("Robotics Engineer")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("Web Developer")
+                      .typeString("Data Scientist")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("UI/UX Designer")
+                      .typeString("Computer Vision")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("IT Engineer")
+                      .typeString("AI Enthusiast")
                       .pauseFor(200)
                       .start();
                   }}
@@ -47,14 +47,29 @@ export default function Greeting(props) {
               </h1>
               <span
                 className="greeting-text-span subTitle"
-                style={{ color: theme.text }}>
+                style={{ color: theme.text }}
+              >
                 <div className="entities">
-                  A <mark data-entity="noun">Data Science practitioner</mark>{" "}
-                  who thrives to{" "}
-                  <mark data-entity="verb">leverage Startups</mark> using
-                  AI-based solutions along with{" "}
-                  <mark data-entity="skill">Web Development</mark> and a blend
-                  of <mark data-entity="freelance">UI/UX Designing</mark>
+                  I am currently pursuing a{" "}
+                  <mark data-entity="diploma">Master's degree in Robotics</mark>{" "}
+                  with a minor in Data Science, specializing in the field of{" "}
+                  <mark data-entity="passion">Artificial Intelligence</mark>,
+                  with a particular focus on{" "}
+                  <mark data-entity="skill">Computer Vision</mark>. <br />
+                  Driven by a passion for innovative technologies, my goal is to
+                  develop solutions that not only advance the field but also
+                  tackle real-world challenges, improve quality of life and
+                  deliver a{" "}
+                  <mark data-entity="objective">
+                    positive impact on the world
+                  </mark>
+                  .<br />
+                  Outside of my technical pursuits, I enjoy{" "}
+                  <mark data-entity="hobby">
+                    exploring nature and traveling
+                  </mark>
+                  , which broaden my perspectives and inspire my professional
+                  endeavors.
                 </div>
               </span>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />

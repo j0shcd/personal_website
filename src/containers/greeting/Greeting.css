@@ -177,12 +177,12 @@
   margin: 0px 0px 0.1rem 0.5rem;
 }
 
-[data-entity][data-entity="noun"] {
+[data-entity][data-entity="skill"] {
   background: rgba(166, 226, 45, 0.2);
   border-color: rgb(166, 226, 45);
   color: rgb(255, 255, 255);
 }
-[data-entity][data-entity="noun"]::after {
+[data-entity][data-entity="skill"]::after {
   background: rgb(166, 226, 45);
   color: rgb(0, 0, 0);
 }
@@ -198,33 +198,45 @@
   color: rgb(0, 0, 0);
 }
 
-[data-entity][data-entity="skill"] {
+[data-entity][data-entity="passion"] {
   background: rgb(187, 47, 117, 0.2);
   border-color: rgb(187, 47, 117);
   color: rgb(255, 255, 255);
 }
 
-[data-entity][data-entity="skill"]::after {
+[data-entity][data-entity="passion"]::after {
   background: rgb(187, 47, 117);
 }
 
-[data-entity][data-entity="freelance"] {
-  background: rgb(187, 161, 47, 0.2);
-  border-color: rgb(187, 161, 47);
+[data-entity][data-entity="diploma"] {
+  background: rgba(47, 136, 187, 0.2);
+  border-color: rgb(47, 136, 187);
   color: rgb(255, 255, 255);
 }
 
-[data-entity][data-entity="freelance"]::after {
-  background: rgb(187, 161, 47);
+[data-entity][data-entity="diploma"]::after {
+  background: rgb(47, 136, 187);
+  /* color: rgb(0, 0, 0); */
+}
+
+[data-entity][data-entity="objective"] {
+  background: rgba(255, 204, 0, 0.2);
+  border-color: rgb(255, 179, 0);
+  color: rgb(255, 255, 255);
+}
+
+[data-entity][data-entity="objective"]::after {
+  background: rgb(255, 179, 0);
   color: rgb(0, 0, 0);
 }
 
-[data-entity][data-entity="verb"] {
-  background: rgba(47, 187, 171, 0.2);
-  border-color: rgb(47, 187, 171);
+[data-entity][data-entity="hobby"] {
+  background: rgba(255, 0, 0, 0.2);
+  border-color: rgb(255, 57, 57);
   color: rgb(255, 255, 255);
 }
 
-[data-entity][data-entity="verb"]::after {
-  background: rgb(21, 124, 112);
+[data-entity][data-entity="hobby"]::after {
+  background: rgb(255, 57, 57);
+  color: rgb(0, 0, 0);
 }

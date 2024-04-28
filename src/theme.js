@@ -1,12 +1,12 @@
 export const blackTheme = {
-  body: "#000000",
+  body: "#010a2e",
   text: "#ffffff",
   blue: "#1179f7",
   orange: "#ffa500",
 };
 
 export const lightTheme = {
-  body: "#ffffff",
+  body: "#78b9ff",
   text: "#000000",
   blue: "#1179f7",
   orange: "#ffa500",

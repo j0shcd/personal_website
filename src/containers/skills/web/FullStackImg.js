@@ -1,7 +1,7 @@
 //import React, {Component } from "react";
-import React, { useRef, useEffect, Component } from "react";
+import React, { useRef, useEffect } from "react";
 import lottie from "lottie-web";
-import data from "./web.svg";
+// import data from "./web.svg";
 
 export default function FullStackImg() {
   const container = useRef(null);
@@ -11,7 +11,7 @@ export default function FullStackImg() {
       renderer: "svg",
       loop: true,
       autoplay: true,
-      animationData: require("./fullanim.json"),
+      animationData: require("./ai.json"),
     });
   }, []);
   return (

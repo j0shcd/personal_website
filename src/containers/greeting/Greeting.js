@@ -75,11 +75,11 @@ export default function Greeting(props) {
               <CompetitiveSites logos={competitiveSites.competitiveSites} />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="/contact" />
-                <Button
+                {/* <Button
                   text="See my resume"
                   newTab={true}
                   href={greeting.resumeLink}
-                />
+                /> */}
               </div>
             </div>
           </div>

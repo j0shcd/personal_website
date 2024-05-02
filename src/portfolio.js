@@ -1,3 +1,5 @@
+// import { link } from "fs";
+
 const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
 };
@@ -10,7 +12,7 @@ const seo = {
   og: {
     title: "Killian Portfolio",
     type: "website",
-    url: "http://rohankokkula.ml/",
+    url: "https://yseoo.github.io/",
   },
 };
 
@@ -19,7 +21,7 @@ const greeting = {
   title: "Bonjour!",
   sub: "Killian Hinard",
   logo_name: "Killian Hinard",
-  resumeLink: "www.google.com",
+  // resumeLink: "www.google.com",
 };
 
 // home logos
@@ -31,7 +33,7 @@ const competitiveSites = {
       style: {
         color: "white",
       },
-      profileLink: "https://github.com/rohankokkula",
+      profileLink: "https://github.com/yseoo",
     },
     // {
     //   siteName: "HackerRank",
@@ -80,35 +82,137 @@ const competitiveSites = {
 const skills = {
   data: [
     {
-      title: "Data Science & Analysis",
-      fileName: "DataScienceImg",
+      title: "Machine Learning & AI (Computer Vision)",
+      fileName: "FullStackImg",
       skills: [
-        "⚡ Developing highly scalable production-ready models for various deep learning and statistical use cases",
-        "⚡ Experience in working with Computer Vision using OpenCV and NLP projects(T5-Transformer & OpenAI)",
-        "⚡ Having good hands-on with Data Cleaning, processing & Analysing using Pandas, Tableau & PowerBI",
-        "⚡ Experience with Text-to-speech encoders/decoders (speech synthesis) & Voice Cloning",
+        "⚡ Designing and implementing computer vision models using OpenCV, PyTorch and basic python librairies for real-time image and video analysis.",
+        "⚡ Applying advanced machine learning algorithms like CNNs and Transformers for action recognition, object detection, and autonomous driving applications.",
+        "⚡ Developing and integrating computer vision systems into applications, enhancing user interaction and automation.",
+        "⚡ Applying transfer learning and feature extraction techniques to leverage pre-trained models for rapid development and improved performance in domain-specific tasks.",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
+          skillName: "PyTorch",
+          fontAwesomeClassname: "devicon:pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "TensorFlow",
           fontAwesomeClassname: "logos-tensorflow",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Python",
+          fontAwesomeClassname: "logos-python",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "NumPy",
+          fontAwesomeClassname: "logos-numpy",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "OpenCV",
+          fontAwesomeClassname: "logos-opencv",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Scikit-Learn",
+          fontAwesomeClassname: "devicon:scikitlearn",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Cuda",
+          fontAwesomeClassname: "vscode-icons:file-type-cuda",
+          style: {
+            backgroundColor: "transparent",
+            color: "red",
+          },
+        },
+      ],
+    },
+    {
+      title: "Robotics & Control Systems",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Designing and programming robotic systems using Python, C++, C for complex tasks and missions.",
+        "⚡ Implementing control systems and algorithms, such as PID, LQR, and MPC, for precise and efficient robot navigation and manipulation.",
+        "⚡ Integrating machine learning algorithms with robotic systems for adaptive and intelligent behavior.",
+        "⚡ Applying genetic algorithms (GAs), genetic programming (GP), and neuroevolution techniques to enhance robot learning and adaptation.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "logos-python",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "C",
+          fontAwesomeClassname: "logos-c",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "simple-icons:cplusplus",
+          style: {
+            backgroundColor: "transparent",
+            color: "#00599C",
+          },
+        },
+        {
+          skillName: "MatLab",
+          fontAwesomeClassname: "devicon:matlab",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Arduino",
+          fontAwesomeClassname: "logos-arduino",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Raspberry Pi",
+          fontAwesomeClassname: "logos-raspberry-pi",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+      ],
+    },
+    {
+      title: "Data Science & Analysis",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Proficient in programming languages such as Python and SQL for data manipulation, analysis, and visualization.",
+        "⚡ Skilled in statistical analysis, hypothesis testing, and experimental design for drawing insights from data.",
+        "⚡ Experience with data preprocessing, cleaning, and feature engineering to prepare datasets for modeling and analysis.",
+        "⚡ Knowledgeable in working with big data technologies, such as Apache Hadoop, Spark, and Hive, for processing and analyzing large-scale datasets.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "logos-python",
+          style: {
+            backgroundColor: "transparent",
           },
         },
         {
@@ -127,118 +231,32 @@ const skills = {
           },
         },
         {
-          skillName: "Tableau",
-          fontAwesomeClassname: "logos-tableau",
+          skillName: "SQL",
+          fontAwesomeClassname: "tabler:sql",
+          style: {
+            backgroundColor: "transparent",
+            color: "#F29111",
+          },
+        },
+        {
+          skillName: "Hadoop",
+          fontAwesomeClassname: "logos-hadoop",
           style: {
             backgroundColor: "transparent",
           },
         },
-      ],
-    },
-    {
-      title: "Web Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive websites using HTML5, CSS3, BootStrap5, ReactJS & NodeJS",
-        "⚡ Creating application backend in Node, Flask & Streamlit",
-        "⚡ Having experience in Domain & Hosting using Netlify, Vercel, Heroku & Hostinger",
-      ],
-      softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Spark",
+          fontAwesomeClassname: "logos-apache-spark",
           style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "BootStrap",
-          fontAwesomeClassname: "logos-bootstrap",
-          style: {
-            color: "#CC6699",
+            backgroundColor: "transparent",
           },
         },
         {
           skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          fontAwesomeClassname: "logos-javascript",
           style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interfaces for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-        "⚡ Applying latest Design principles and experienced in product wireframing",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Adobe Photoshop",
-          fontAwesomeClassname: "simple-icons:adobephotoshop",
-          style: {
-            color: "#2fa3f7",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
+            backgroundColor: "transparent",
           },
         },
       ],
@@ -250,7 +268,7 @@ const skills = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Welcome! Here you’ll find a collection of projects that blend robotics, data science, computer vision, mechanical designs and sensor based systems. Please feel free to explore, and don’t hesitate to contact me if you have any questions or are interested in collaboration.",
 };
 
 //project cards
@@ -258,190 +276,340 @@ const projectsHeader = {
 const projectcards = {
   list: [
     {
-      title: "TEATH",
-      img_path: "project-06.png",
+      title: "MBAimCLR",
+      img_path: "mbaimclr.png",
+      date: "Winter 2023",
       description:
-        "A WebApp for Extracting Text from Images and applying various thresholding methods with sentiment analysis using TextBlob",
+        "Investigate the performance of a specific contrastive learning framework with extreme data augmentation for training a state-of-the-art transformer-based network in action recognition.",
       tags: [
         {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "TextBlob",
-          color: "#820032",
-        },
-        {
-          lang: "OpenCV",
+          lang: "Computer Vision",
           color: "#00a100",
         },
         {
-          lang: "Streamlit",
-          color: "#ff4b4b",
+          lang: "Action Recognition",
+          color: "#7f09e6",
         },
         {
-          lang: "Heroku",
-          color: "#3c0095",
+          lang: "Deep Learning",
+          color: "#e6a009",
+        },
+        {
+          lang: "Python",
+          color: "#0961e6",
+        },
+        {
+          lang: "PyTorch",
+          color: "#Ed3437",
         },
       ],
-      link: "https://teath.herokuapp.com ",
-      code: "https://github.com/rohankokkula/TEATH",
+      link: "pdfs/mbaimclr.pdf",
+      code: "https://github.com/yseoo/MBAimCLR",
       linkcolor: "white",
     },
-
     {
-      title: "Voice Gender Detection",
-      img_path: "voice.gif",
+      title: "FireFighter",
+      img_path: "firefighter.gif",
+      date: "Winter 2022",
       description:
-        "A streamlit webapp which detects user's gender and emotion based on realtime audio input.",
+        "In a controlled environment, we designed a mobile robot named SuperThymio that employs computer vision and pattern recognition to effectively navigate through a simulated city with 3D obstacles, utilizing global planning and local avoidance algorithms, as well as a Kalman filter for accurate localization, to locate and extinguish modeled fires using high-contrast components for enhanced performance.",
       tags: [
         {
-          lang: "ongoing",
-          color: "red",
+          lang: "Robotics",
+          color: "#1809e6",
         },
         {
-          lang: "python",
-          color: "#004782",
+          lang: "Computer Vision",
+          color: "#00a100",
         },
         {
-          lang: "matplotlib",
+          lang: "Control",
+          color: "#e60909",
+        },
+        {
+          lang: "Python",
+          color: "#0961e6",
+        },
+      ],
+      link: "",
+      code: "https://github.com/yseoo/FireFighter",
+      linkcolor: "white",
+    },
+    {
+      title: "SileX project",
+      img_path: "silex.png",
+      date: "Spring 2021",
+      description:
+        "The SileX project, part of the second-year 'Conception de Mécanisme' course at EPFL, aims to create a dynamically balanced mechanism with two degrees of freedom in roll and pitch. This mechanism facilitates the movement of a mirror that reflects a laser in microfabrication processes.",
+      tags: [
+        {
+          lang: "Mechanical Design",
+          color: "#e60909",
+        },
+        {
+          lang: "flexible mechanism",
+          color: "#00a100",
+        },
+        {
+          lang: "microfabrication",
+          color: "#0974e6",
+        },
+      ],
+      link: "pdfs/silex.pdf",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "Logical Circuit Multifunction Clock",
+      img_path: "syslog.gif",
+      date: "Autumn 2020",
+      description:
+        "Designed a digital watch using only logical circuits, featuring an adjustable clock, alarm, stopwatch, timer, and timezone adjustments. Made from scratch in the context of 'Système Logique' course at EPFL in 2nd year, it included intuitive controls and audio notifications.",
+      tags: [
+        {
+          lang: "Logical Circuit",
+          color: "#e60909",
+        },
+        {
+          lang: "Microcontroller",
           color: "#c47206",
         },
-        {
-          lang: "tensorflow",
-          color: "#4257f5",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
-        },
       ],
-      link: "",
+      link: "pdfs/syslog.pdf",
       code: "",
       linkcolor: "white",
     },
     {
-      title: "NeuralViz",
-      img_path: "neural.gif",
+      title: "Pedestrian Intention Prediction",
+      img_path: "pedestrian.gif",
+      date: "Spring 2023",
       description:
-        "A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo.",
+        "This project propose a model to predict the intention of pedestrians in a video. The model is based on the MotionBert model and is trained and evaluated on the JAAD dataset.",
       tags: [
         {
-          lang: "python",
-          color: "#004782",
+          lang: "Computer Vision",
+          color: "#00a100",
         },
         {
-          lang: "numpy",
-          color: "#8700b0",
+          lang: "Action Recognition",
+          color: "#7f09e6",
         },
         {
-          lang: "matplotlib",
-          color: "#c47206",
+          lang: "Deep Learning",
+          color: "#e6a009",
         },
         {
-          lang: "Streamlit",
-          color: "#ff4b4b",
+          lang: "Python",
+          color: "#0961e6",
         },
         {
-          lang: "Heroku",
-          color: "#3c0095",
-        },
-      ],
-      link: "https://neuralviz.herokuapp.com/",
-      code: "https://github.com/rohankokkula/neuralviz",
-      linkcolor: "white",
-    },
-    {
-      title: "Semantic Search APP",
-      img_path: "project-03.png",
-      description:
-        "Demo of OpenAI's GPT-3 model on Semantic search using streamlit.",
-      tags: [
-        {
-          lang: "ongoing",
-          color: "red",
-        },
-        {
-          lang: "Streamlit",
-          color: "#ff4b4b",
+          lang: "PyTorch",
+          color: "#Ed3437",
         },
       ],
       link: "",
-      code: "",
+      code:
+        "https://github.com/yseoo/Pedestrian-Intention-Prediction/tree/main",
       linkcolor: "white",
     },
     {
-      title: "Youtube Thumbnail Generator & AutoUploader",
-      img_path: "project-02.png",
+      title: "Probabilistic Trip Planner",
+      img_path: "planner.gif",
+      date: "Spring 2023",
       description:
-        "A python streamlit webapp to automate generating & uploading youtube thumbnails using Youtube v3 API",
+        "Developed a robust public transport route planner for Zurich using big data analytics and real-time data integration. Utilized Spark and distributed file systems to process large-scale datasets, designing predictive algorithms to optimize route reliability and efficiency within specified confidence intervals. Enhanced user experience by incorporating and interactive visualizations.",
       tags: [
         {
-          lang: "internal project",
-          color: "red",
+          lang: "Data Science",
+          color: "#00a100",
         },
         {
-          lang: "youtube v3 api",
-          color: "red",
-        },
-      ],
-      link: "",
-      code: "",
-      linkcolor: "white",
-    },
-
-    {
-      title: "Newsearcher",
-      img_path: "news.gif",
-      description:
-        "Enter your search keyword and get a summary of news weblinks with images without actually opening the links.",
-      tags: [
-        {
-          lang: "python",
-          color: "#004782",
-        },
-        {
-          lang: "newspaper3k",
+          lang: "Large-scale data",
           color: "#303030",
         },
         {
-          lang: "Streamlit",
-          color: "#ff4b4b",
+          lang: "Python",
+          color: "#0961e6",
         },
         {
-          lang: "nltk",
-          color: "#051c61",
+          lang: "Spark",
+          color: "#c47206",
         },
       ],
-      link: "https://newsearcher.herokuapp.com/",
-      code: "https://github.com/rohankokkula/Newsearcher",
+      link: "",
+      code: "https://github.com/yseoo/Probabilistic-Trip-Planner",
       linkcolor: "white",
     },
     {
-      title: "ActiWeight",
-      img_path: "acti.gif",
+      title: "Autonomous Hydroponic Farm",
+      img_path: "proto_farm.png",
+      date: "Spring 2022",
       description:
-        "ActiWeight is an Interactive Visualizer for understanding intuition behind 10 Activation Functions used in Neural Networks.",
+        "Developed a self-regulating hydroponic farm capable of managing heat, light, pH, and nutrient concentration for optimal plant growth. Crafted custom sensors for nutrient concentration and pH using basic materials.",
       tags: [
         {
-          lang: "python",
-          color: "#004782",
+          lang: "Sensor based system",
+          color: "#00a100",
         },
         {
-          lang: "matplotlib",
-          color: "#c47206",
-        },
-        {
-          lang: "Streamlit",
+          lang: "Prototyping",
           color: "#ff4b4b",
         },
         {
-          lang: "Heroku",
-          color: "#3c0095",
+          lang: "Arduino",
+          color: "#0961e6",
         },
       ],
-      link: "https://www.youtube.com/watch?v=2vk9lQuX_1Q",
-      code: "https://github.com/rohankokkula/Actiweight",
+      link: "pdfs/sensor.pdf",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "Archipelago City Maker",
+      img_path: "archipellago.png",
+      date: "Spring 2020",
+      description:
+        "This project developed an application to build island cities with houses, production sites, and transport nodes on interconnected islands. Users can create, save, and load city layouts, ensuring logical setups. The application evaluates cities based on distance to work, balance between living and working spaces, and population capacity.",
+      tags: [
+        {
+          lang: "Application",
+          color: "#00a100",
+        },
+        {
+          lang: "C++",
+          color: "#004782",
+        },
+      ],
+      link: "",
+      code: "https://github.com/yseoo/Archipelago",
+      linkcolor: "white",
+    },
+    {
+      title: "Mechanical Design of a Seeder",
+      img_path: "semoir.png",
+      date: "Spring 2020",
+      description:
+        "This project was developed for the first-year course 'Construction mécannique' at EPFL. We were tasked with designing a seeder from scratch, adhering to specific requirements.",
+      tags: [
+        {
+          lang: "Mechanical Design",
+          color: "#e60909",
+        },
+      ],
+      link: "pdfs/semoir.pdf",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "Conveyor Belt Waste Type Detection",
+      img_path: "waste_detection.jpg",
+      date: "Ongoing",
+      description:
+        "Develop a real-time object detection and segmentation model to optimize recycling facility operations, ensuring sufficient performance for practical implementation. Made in collaboration with the CVLAB at EPFL and the startup WasteFlow.",
+      tags: [
+        {
+          lang: "Computer Vision",
+          color: "#00a100",
+        },
+        {
+          lang: "Object Detection",
+          color: "#7f09e6",
+        },
+        {
+          lang: "Deep Learning",
+          color: "#e6a009",
+        },
+        {
+          lang: "Python",
+          color: "#0961e6",
+        },
+        {
+          lang: "PyTorch",
+          color: "#Ed3437",
+        },
+        {
+          lang: "OpenVino",
+          color: "#08a893",
+        },
+      ],
+      link: "https://www.wasteflow.ai",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "A Tale of Acting Careers",
+      img_path: "ada.webp",
+      date: "Winter 2023",
+      description:
+        "We developed a data analysis project that included creating a data storytelling website to provide insights through meaningful analysis and visualizations of the IMDB movie and CMU movie and character datasets. The project involved data cleaning, analysis, and visualization.",
+      tags: [
+        {
+          lang: "Data Science",
+          color: "#00a100",
+        },
+        {
+          lang: "Data Visualization",
+          color: "#303030",
+        },
+        {
+          lang: "Python",
+          color: "#0961e6",
+        },
+        {
+          lang: "Web Development",
+          color: "#ff4b4b",
+        },
+      ],
+      link: "https://yseoo.github.io/las-empanadas-story/",
+      code: "https://github.com/epfl-ada/ada-2023-project-lasempanadas",
+      linkcolor: "white",
+    },
+    {
+      title: "MEMS Project",
+      img_path: "mems.gif",
+      date: "Winter 2021",
+      description:
+        "The project focused on developing a MEMS device capable of manipulating a micro-mirror within optical fiber paths. The device included a laterally moving actuator with locking capabilities at extended and retracted positions. The process encompassed design, simulation via COMSOL, fabrication in clean rooms, and evaluation to address performance discrepancies like stiction.",
+      tags: [
+        {
+          lang: "Mechanical Design",
+          color: "#e60909",
+        },
+        {
+          lang: "Micro-tech",
+          color: "#00a100",
+        },
+        {
+          lang: "Microfabrication",
+          color: "#0974e6",
+        },
+      ],
+      link: "pdfs/mems.pdf",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "Temperature Controller in Assembly",
+      img_path: "micro.png",
+      date: "Spring 2021",
+      description:
+        "Our app, developed entirely in assembly for the second-year 'Microcontrôleurs' course at EPFL, allow the user to control room temperatures. It measures temperature, adjusts a vent via a servo motor based on user-set thresholds on an LCD interface, and alerts users with an alarm if the temperature exceeds these limits, facilitating manual adjustment.",
+      tags: [
+        {
+          lang: "Microcontroller",
+          color: "#c47206",
+        },
+        {
+          lang: "Assembly",
+          color: "#0974e6",
+        },
+        {
+          lang: "Electronics",
+          color: "#e60909",
+        },
+      ],
+      link: "pdfs/micro.pdf",
+      code: "",
       linkcolor: "white",
     },
   ],
@@ -542,8 +710,8 @@ const resumeright = {
           date: "January 2024 - present",
           content: [
             "Managing of the Erasmus Student Network (ESN) website and digital resources, ensuring efficient operation and user accessibility.",
-            "Contribute to the strategic leadership of the association, participating actively in decision-making processes and organizational management.",
-            "Collaborated with the communication team to ensure the quality and accuracy of event descriptions published on the website.",
+            "Contribute to the strategic leadership of the association, participating actively in decision-making processes, organizational management and recruiting process.",
+            "Collaboration with the communication team to ensure the quality and accuracy of event descriptions published on the website.",
           ],
         },
         {

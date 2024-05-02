@@ -53,34 +53,39 @@ class Projects extends Component {
                     <Card.Title>
                       <h2 style={{ lineHeight: "1.5", marginTop: "0" }}>
                         {proj.title}
-                        <a
-                          style={{ color: theme.text }}
-                          href={proj.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i
-                            className={`fas fa-external-link-alt`}
-                            style={{
-                              color: proj.linkcolor,
-                              marginLeft: "10px",
-                            }}
-                          ></i>
-                        </a>
-                        <a
-                          style={{ color: theme.text }}
-                          href={proj.code}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i
-                            className={`fab fa-github`}
-                            style={{
-                              color: proj.linkcolor,
-                              paddingLeft: "10px",
-                            }}
-                          ></i>
-                        </a>
+                        {proj.link ? (
+                          <a
+                            style={{ color: theme.text }}
+                            href={proj.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i
+                              className={`fas fa-external-link-alt`}
+                              style={{
+                                color: proj.linkcolor,
+                                marginLeft: "10px",
+                              }}
+                            ></i>
+                          </a>
+                        ) : null}
+
+                        {proj.code ? (
+                          <a
+                            style={{ color: theme.text }}
+                            href={proj.code}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i
+                              className={`fab fa-github`}
+                              style={{
+                                color: proj.linkcolor,
+                                paddingLeft: "10px",
+                              }}
+                            ></i>
+                          </a>
+                        ) : null}
                       </h2>
                     </Card.Title>
                     <div>
@@ -103,6 +108,10 @@ class Projects extends Component {
                       style={{ marginTop: "20px" }}
                     ></div>
                     <Card.Text>{proj.description}</Card.Text>
+                    <Card.Text>
+                      <i className="fa fa-calendar-alt"></i>
+                      <i> {proj.date}</i>
+                    </Card.Text>
                   </Card.Body>
                 </Card>
               );
@@ -112,7 +121,7 @@ class Projects extends Component {
         <Button
           text={"More Projects"}
           className="project-button"
-          href="https://github.com/rohankokkula"
+          href="https://github.com/yseoo"
           newTab={true}
           theme={theme}
         />

@@ -336,6 +336,34 @@ const projectcards = {
       linkcolor: "white",
     },
     {
+      title: "Evolved Robot",
+      img_path: "evolved.gif",
+      date: "Spring 2024",
+      description:
+        "Developed a robot by evolving its brain and morphology using a genetic algorithm. The goal was to create a robot that would learn legged locomotion through evolution and that would be able to adapt to different environments.",
+      tags: [
+        {
+          lang: "Robotics",
+          color: "#1809e6",
+        },
+        {
+          lang: "Evolutionary Algorithms",
+          color: "#00a100",
+        },
+        {
+          lang: "Prototyping",
+          color: "#e60909",
+        },
+        {
+          lang: "Simulation",
+          color: "#0961e6",
+        },
+      ],
+      link: "pdfs/evolved.pdf",
+      code: "",
+      linkcolor: "white",
+    },
+    {
       title: "SileX project",
       img_path: "silex.png",
       date: "Spring 2021",
@@ -503,7 +531,7 @@ const projectcards = {
     {
       title: "Conveyor Belt Waste Type Detection",
       img_path: "waste_detection.jpg",
-      date: "Ongoing",
+      date: "Spring 2024",
       description:
         "Develop a real-time object detection and segmentation model to optimize recycling facility operations, ensuring sufficient performance for practical implementation. Made in collaboration with the CVLAB at EPFL and the startup WasteFlow.",
       tags: [
@@ -534,6 +562,36 @@ const projectcards = {
       ],
       link: "https://www.wasteflow.ai",
       code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "The Stellar Chronicles of History",
+      img_path: "dataviz.png",
+      date: "Spring 2024",
+      description:
+        "Developed an interactive website enabling users to explore world history through creative visualizations. Utilized basic JavaScript libraries for the front-end development and employed Python for data cleaning and processing.",
+      tags: [
+        {
+          lang: "Data Science",
+          color: "#00a100",
+        },
+        {
+          lang: "Data Visualization",
+          color: "#303030",
+        },
+        {
+          lang: "JavaScript",
+          color: "#0961e6",
+        },
+        {
+          lang: "Web Development",
+          color: "#ff4b4b",
+        },
+      ],
+      link:
+        "https://com-480-data-visualization.github.io/project-2024-DataBeez/",
+      code:
+        "https://github.com/com-480-data-visualization/project-2024-DataBeez",
       linkcolor: "white",
     },
     {
@@ -627,7 +685,7 @@ const resumeleft = {
         content: [
           "Technical Coursework and Projects in Machine Learning, Deep Learning, Computer Vision, Reinforcement learning, Mechanical Engineering, Multivariable Control, Automatic, Model Predictive Control, Evolutive and Genetic Algorithms, Intelligent Agent, DevOps.",
           "Minor in Data Science with courses in Applied Data Analysis, Computer Networks, Data Visualisation, Database, Large-scale data management and analysis, Data cleaning",
-          "🔸 current GPA: 5.35/6",
+          "🔸 current GPA: 5.45/6",
         ],
       },
       {
@@ -645,7 +703,7 @@ const resumeleft = {
         date: "September 2019 - June 2022",
         content: [
           "Basic sciences (Physics, Linear Algebra, Calculus, Chemistry), Object Oriented Programming (C++), Experimental Statistics, Computer Science Theory, Analog Devices, Micro-Mechanical engineering, Basic of Electronics.",
-          "🔸 GPA: 4.99/6",
+          "🔸 GPA: 5/6",
         ],
       },
       {

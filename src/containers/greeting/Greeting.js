@@ -52,7 +52,7 @@ export default function Greeting(props) {
                 <div className="entities">
                   I am currently pursuing a{" "}
                   <mark data-entity="diploma">Master's degree in Robotics</mark>{" "}
-                  with a minor in Data Science, specializing in the field of{" "}
+                  with a minor in Data Science, specialized in the field of{" "}
                   <mark data-entity="passion">Artificial Intelligence</mark>,
                   with a particular focus on{" "}
                   <mark data-entity="skill">Computer Vision</mark>. <br />

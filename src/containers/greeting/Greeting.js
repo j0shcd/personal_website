@@ -8,6 +8,11 @@ import BannerImg from "./BannerImg";
 import Typewriter from "typewriter-effect";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import { competitiveSites } from "../../portfolio";
+
+import epfl_me from "../../assets/images/epfl_me.jpg";
+import mountains from "../../assets/images/mountains.jpg";
+import japan from "../../assets/images/japan.jpg";
+
 export default function Greeting(props) {
   const theme = props.theme;
   return (
@@ -20,22 +25,24 @@ export default function Greeting(props) {
                 {greeting.title}
               </h1>
               <h1 className="greeting-sub" style={{ color: theme.grayText }}>
-                I'm <mark data-entity="person">{greeting.sub}</mark>
+                I'm {greeting.sub.split(" ")[0]}
+                <br />
+                {greeting.sub.split(" ").slice(1).join(" ")}
               </h1>
               <h1 className="greeting-typewriter" style={{ color: theme.blue }}>
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Robotics Engineer")
+                      .typeString("Data Science")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("Data Scientist")
+                      .typeString("Startups")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("Computer Vision")
+                      .typeString("Product")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("AI Enthusiast")
+                      .typeString("Machine Learning")
                       .pauseFor(200)
                       .start();
                   }}
@@ -50,26 +57,37 @@ export default function Greeting(props) {
                 style={{ color: theme.text }}
               >
                 <div className="entities">
-                  I am currently pursuing a{" "}
-                  <mark data-entity="diploma">Master's degree in Robotics</mark>{" "}
-                  with a minor in Data Science, specialized in the field of{" "}
-                  <mark data-entity="passion">Artificial Intelligence</mark>,
-                  with a particular focus on{" "}
-                  <mark data-entity="skill">Computer Vision</mark>. <br />
-                  Driven by a passion for innovative technologies, my goal is to
-                  develop solutions that not only advance the field but also
-                  tackle real-world challenges, improve quality of life and
-                  deliver a{" "}
-                  <mark data-entity="objective">
-                    positive impact on the world
+                  I'm a Swiss-based tech enthusiast with a passion for{" "}
+                  <mark data-entity="skill">product innovation and data</mark>,
+                  currently pursuing a{" "}
+                  <mark data-entity="diploma">
+                    Master's in Technology Management and Data Science
+                  </mark>{" "}
+                  after a{" "}
+                  <mark data-entity="passion">
+                    {" "}
+                    Bachelor's in Microengineering
                   </mark>
-                  .<br />
-                  Outside of my technical pursuits, I enjoy{" "}
+                  .
+                  <br />
+                  <br />
+                  During my studies at EPFL, I have spent time
+                  <mark data-entity="objective">building rockets</mark> for the
+                  EPFL Rocket Team, been{" "}
+                  <mark data-entity="objective">President</mark> at the
+                  Entrepreneur Club and{" "}
+                  <mark data-entity="objective">Managing Partner</mark> at
+                  student-led VC fund Founderful Campus. I also worked for Intel
+                  as a <mark data-entity="objective">Software Engineer</mark>{" "}
+                  and for DAAV as a{" "}
+                  <mark data-entity="objective">Founder's Associate</mark>.
+                  <br />
+                  <br />
+                  Outside of my professional pursuits, I enjoy{" "}
                   <mark data-entity="hobby">
-                    exploring nature and traveling
+                    exploring nature, photography, and cooking
                   </mark>
-                  , which broaden my perspectives and inspire my professional
-                  endeavors.
+                  .
                 </div>
               </span>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />
@@ -83,8 +101,25 @@ export default function Greeting(props) {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
+          {/* <div className="greeting-image-div">
             <BannerImg />
+          </div> */}
+          <div className="greeting-image-div">
+            <div className="image-container">
+              <div className="image-stack">
+                <img
+                  src={epfl_me}
+                  alt="EPFL and me"
+                  className="image epfl_me"
+                />
+                <img
+                  src={mountains}
+                  alt="Mountains"
+                  className="image mountains"
+                />
+                <img src={japan} alt="Japan" className="image Japan" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

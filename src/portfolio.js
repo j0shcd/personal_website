@@ -6,21 +6,21 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Killian Hinard | Portfolio",
+  title: "Joshua Cohen-Dumani | Portfolio",
   description:
-    "A Data Science practitioner who thrives to leverage startups with AI based solutions with a blend of UI/UX",
+    "A Data Science and Product Management practitioner who thrives by helping businesses and startups leverage AI based solutions with a blend of UI/UX and product sense",
   og: {
-    title: "Killian Portfolio",
+    title: "Josh Portfolio",
     type: "website",
-    url: "https://yseoo.github.io/",
+    url: "joshuacohendumani.com",
   },
 };
 
 //Home Page
 const greeting = {
   title: "Bonjour!",
-  sub: "Killian Hinard",
-  logo_name: "Killian Hinard",
+  sub: "Joshua Cohen-Dumani",
+  logo_name: "Joshua Cohen-Dumani",
   // resumeLink: "www.google.com",
 };
 
@@ -33,7 +33,7 @@ const competitiveSites = {
       style: {
         color: "white",
       },
-      profileLink: "https://github.com/yseoo",
+      profileLink: "https://github.com/j0shcd",
     },
     // {
     //   siteName: "HackerRank",
@@ -59,14 +59,14 @@ const competitiveSites = {
     //   },
     //   profileLink: "https://www.hackerearth.com/@rohankokkula",
     // },
-    // {
-    //   siteName: "LinkedIn",
-    //   iconifyClassname: "simple-icons:linkedin",
-    //   style: {
-    //     color: "#0077b5",
-    //   },
-    //   profileLink: "https://www.linkedin.com/in/rohankokkula/",
-    // },
+    {
+      siteName: "LinkedIn",
+      iconifyClassname: "simple-icons:linkedin",
+      style: {
+        color: "#0077b5",
+      },
+      profileLink: "https://www.linkedin.com/in/joshua-cohen-dumani/",
+    },
     // {
     //   siteName: "HashNode",
     //   iconifyClassname: "simple-icons:hashnode",
@@ -82,11 +82,11 @@ const competitiveSites = {
 const skills = {
   data: [
     {
-      title: "Machine Learning & AI (Computer Vision)",
+      title: "Machine Learning & AI",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Designing and implementing computer vision models using OpenCV, PyTorch and basic python librairies for real-time image and video analysis.",
-        "⚡ Applying advanced machine learning algorithms like CNNs and Transformers for action recognition, object detection, and autonomous driving applications.",
+        "⚡ Designing and implementing machine learning models that drive results using PyTorch, TensorFlow, and Scikit-learn.",
+        "⚡ Applying advanced machine learning algorithms like CNNs, LSTMs and Autoencoders for anomaly detection, prognostics, and regression tasks.",
         "⚡ Developing and integrating computer vision systems into applications, enhancing user interaction and automation.",
         "⚡ Applying transfer learning and feature extraction techniques to leverage pre-trained models for rapid development and improved performance in domain-specific tasks.",
       ],
@@ -120,10 +120,10 @@ const skills = {
           },
         },
         {
-          skillName: "OpenCV",
-          fontAwesomeClassname: "logos-opencv",
+          skillName: "Rust",
+          fontAwesomeClassname: "logos-rust",
           style: {
-            backgroundColor: "transparent",
+            backgroundColor: "#B7410E",
           },
         },
         {
@@ -144,58 +144,58 @@ const skills = {
       ],
     },
     {
-      title: "Robotics & Control Systems",
+      title: "Product Sense and Leadership",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing and programming robotic systems using Python, C++, C for complex tasks and missions.",
-        "⚡ Implementing control systems and algorithms, such as PID, LQR, and MPC, for precise and efficient robot navigation and manipulation.",
-        "⚡ Integrating machine learning algorithms with robotic systems for adaptive and intelligent behavior.",
-        "⚡ Applying genetic algorithms (GAs), genetic programming (GP), and neuroevolution techniques to enhance robot learning and adaptation.",
+        "⚡ Sourcing and evaluating deep-tech and SaaS startups with leading pre-seed Fund Founderful as Managing Partner for Founderful Campus.",
+        "⚡ Experience founding and leading new projects from conception to launch, focused on answering user needs.",
+        "⚡ Led multiple teams spanning several domains from pure engineering sub-systems (teams of 6-7) to President of an association with 35+ members and multiple sub-teams.",
+        "⚡ Multidisciplinary background combining engineering and technical experience with business and product know-how.",
       ],
       softwareSkills: [
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "logos-python",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "logos-c",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            backgroundColor: "transparent",
-            color: "#00599C",
-          },
-        },
-        {
-          skillName: "MatLab",
-          fontAwesomeClassname: "devicon:matlab",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Arduino",
-          fontAwesomeClassname: "logos-arduino",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Raspberry Pi",
-          fontAwesomeClassname: "logos-raspberry-pi",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
+        // {
+        //   skillName: "Python",
+        //   fontAwesomeClassname: "logos-python",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //   },
+        // },
+        // {
+        //   skillName: "C",
+        //   fontAwesomeClassname: "logos-c",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //   },
+        // },
+        // {
+        //   skillName: "C++",
+        //   fontAwesomeClassname: "simple-icons:cplusplus",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //     color: "#00599C",
+        //   },
+        // },
+        // {
+        //   skillName: "MatLab",
+        //   fontAwesomeClassname: "devicon:matlab",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //   },
+        // },
+        // {
+        //   skillName: "Arduino",
+        //   fontAwesomeClassname: "logos-arduino",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //   },
+        // },
+        // {
+        //   skillName: "Raspberry Pi",
+        //   fontAwesomeClassname: "logos-raspberry-pi",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //   },
+        // },
       ],
     },
     {
@@ -203,9 +203,9 @@ const skills = {
       fileName: "DataScienceImg",
       skills: [
         "⚡ Proficient in programming languages such as Python and SQL for data manipulation, analysis, and visualization.",
-        "⚡ Skilled in statistical analysis, hypothesis testing, and experimental design for drawing insights from data.",
+        "⚡ Skilled in statistical analysis, hypothesis testing, and experiment design for drawing insights from data.",
         "⚡ Experience with data preprocessing, cleaning, and feature engineering to prepare datasets for modeling and analysis.",
-        "⚡ Knowledgeable in working with big data technologies, such as Apache Hadoop, Spark, and Hive, for processing and analyzing large-scale datasets.",
+        "⚡ Knowledgable in working with and pre-processing heavily imbalanced datasets.",
       ],
       softwareSkills: [
         {
@@ -238,16 +238,16 @@ const skills = {
             color: "#F29111",
           },
         },
+        // {
+        //   skillName: "Hadoop",
+        //   fontAwesomeClassname: "logos-hadoop",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //   },
+        // },
         {
-          skillName: "Hadoop",
-          fontAwesomeClassname: "logos-hadoop",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Spark",
-          fontAwesomeClassname: "logos-apache-spark",
+          skillName: "Git",
+          fontAwesomeClassname: "logos-git",
           style: {
             backgroundColor: "transparent",
           },
@@ -927,15 +927,15 @@ const contactPageData = {
 //contact icons
 const socialMediaLinks = [
   {
-    name: "Github",
-    link: "https://github.com/yseoo",
-    iconifyClassname: "simple-icons:hackerrank",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    name: "Linkedin",
+    link: "https://www.linkedin.com/in/joshua-cohen-dumani/",
+    iconifyClassname: "simple-icons:linkedin",
+    fontAwesomeIcon: "fa-linkedin", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "Gmail",
-    link: "mailto:killian.hd@gmail.com",
+    link: "mailto:joshua@cohendumani.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },

@@ -18,6 +18,7 @@
 
 .greeting-main {
   display: flex;
+  align-items: flex-start;
 }
 
 .greeting-main > * {
@@ -39,7 +40,7 @@
 }
 .greeting-sub {
   margin-top: 0px;
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom: 50px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
@@ -55,13 +56,37 @@
 .greeting-text-span {
   font-size: 18px;
   margin-top: 65px;
-  margin-right: 40px;
+  margin-right: 30px;
   font-family: "Google Sans Medium";
 }
 
-.greeting-image-div > * {
+/* .greeting-image-div > * {
   max-width: 100%;
   height: auto;
+} */
+
+.greeting-image-div > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the images vertically */
+  justify-content: space-around; /* Distributes space around images */
+  width: 100%; /* Full width to accommodate child flex settings */
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column; /* Stacks the images vertically */
+  align-items: center; /* Center align the images horizontally */
+  width: 100%; /* Ensures the container takes the full width */
+}
+
+.image {
+  width: 70%; /* Sets a max width for all images to be uniform */
+  height: auto; /* Maintains the aspect ratio of the images */
+  display: block; /* Ensures images are treated as block elements */
+  margin: 10px auto; /* Additional measure to center images */
+  border-radius: 10px; /* Optional: for rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Optional: for shadow effect */
 }
 
 /* Media Query */
@@ -162,9 +187,10 @@
   display: inline-block;
   border-radius: 0.25em;
   border: 1px solid;
+  background: transparent;
 }
 
-[data-entity]::after {
+/* [data-entity]::after {
   box-sizing: border-box;
   content: attr(data-entity);
   font-size: 0.6em;
@@ -175,7 +201,7 @@
   display: inline-block;
   vertical-align: middle;
   margin: 0px 0px 0.1rem 0.5rem;
-}
+} */
 
 [data-entity][data-entity="skill"] {
   background: rgba(166, 226, 45, 0.2);

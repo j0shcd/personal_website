@@ -57,7 +57,7 @@ export default function Greeting(props) {
                 style={{ color: theme.text }}
               >
                 <div className="entities">
-                  I'm a Swiss-based tech enthusiast with a passion for{" "}
+                  I'm an EPFL engineer and tech enthusiast with a passion for{" "}
                   <mark data-entity="skill">product innovation and data</mark>,
                   currently pursuing a{" "}
                   <mark data-entity="diploma">
@@ -72,15 +72,49 @@ export default function Greeting(props) {
                   <br />
                   <br />
                   During my studies at EPFL, I have spent time
-                  <mark data-entity="objective">building rockets</mark> for the
-                  EPFL Rocket Team, been{" "}
-                  <mark data-entity="objective">President</mark> at the
-                  Entrepreneur Club and{" "}
-                  <mark data-entity="objective">Managing Partner</mark> at
-                  student-led VC fund Founderful Campus. I also worked for Intel
+                  <mark data-entity="objective">building rockets</mark> for the{" "}
+                  <a
+                    href="https://epflrocketteam.ch/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    EPFL Rocket Team
+                  </a>
+                  , been <mark data-entity="objective">President</mark> at the{" "}
+                  <a
+                    href="https://www.ec-epfl-unil.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Entrepreneur Club
+                  </a>{" "}
+                  and <mark data-entity="objective">Managing Partner</mark> at
+                  student-led VC fund{" "}
+                  <a
+                    href="https://www.campus.founderful.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Founderful Campus
+                  </a>
+                  . I also worked for{" "}
+                  <a
+                    href="https://www.intel.com/content/www/us/en/research/neuromorphic-computing.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Intel Labs
+                  </a>{" "}
                   as a <mark data-entity="objective">Software Engineer</mark>{" "}
-                  and for DAAV as a{" "}
-                  <mark data-entity="objective">Founder's Associate</mark>.
+                  and for{" "}
+                  <a
+                    href="https://www.daav.ch/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    DAAV
+                  </a>{" "}
+                  on <mark data-entity="objective">Business Development</mark>.
                   <br />
                   <br />
                   Outside of my professional pursuits, I enjoy{" "}

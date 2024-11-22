@@ -58,6 +58,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 /* Media Query */
 @media (max-width: 1380px) {
   html,
@@ -65,4 +66,14 @@ body {
     font-size: 16px;
     line-height: normal;
   }
+}
+
+a {
+  color: inherit; /* Makes link color the same as the parent text color */
+  text-decoration: none; /* Removes underline from links */
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline; /* Adds underline on hover for better user interaction feedback */
 }

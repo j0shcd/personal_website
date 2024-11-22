@@ -11,9 +11,21 @@ export default function Footer(props) {
       <Fade>
         <p className="footer-text" style={{ color: props.theme.text }}>
           Template made by{" "}
-          <a href="https://github.com/rohankokkula">Rohan Kokkula</a>, modified
-          and styled by{" "}
-          <a href="https://github.com/rohankokkula">{greeting.sub}</a>
+          <a
+            href="https://github.com/rohankokkula"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Rohan Kokkula
+          </a>
+          , modified and styled by{" "}
+          <a
+            href="https://www.linkedin.com/in/joshua-cohen-dumani/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {greeting.sub}
+          </a>
         </p>
         {/* {<ToggleSwitch theme={props.theme} onToggle={props.onToggle}/>} */}
       </Fade>

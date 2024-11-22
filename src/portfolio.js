@@ -283,7 +283,7 @@ const skills = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "Welcome! Here you’ll find a collection of projects that blend robotics, data science, computer vision, mechanical designs and sensor based systems. Please feel free to explore, and don’t hesitate to contact me if you have any questions or are interested in collaboration.",
+    "Welcome! Here you’ll find a collection of projects that blend data science, machine learning, mechanical designs, sensor based systems, and a range of other topics. Please feel free to explore, and don’t hesitate to contact me if you have any questions or are interested in collaboration.",
 };
 
 //project cards
@@ -291,91 +291,112 @@ const projectsHeader = {
 const projectcards = {
   list: [
     {
-      title: "MBAimCLR",
-      img_path: "mbaimclr.png",
-      date: "Winter 2023",
+      title: "MEMS Project",
+      img_path: "mems.gif",
+      date: "Winter 2021",
       description:
-        "Investigate the performance of a specific contrastive learning framework with extreme data augmentation for training a state-of-the-art transformer-based network in action recognition.",
+        "The project focused on developing a MEMS device capable of manipulating a micro-mirror within optical fiber paths. The device included a laterally moving actuator with locking capabilities at extended and retracted positions. The process encompassed design, simulation via COMSOL, fabrication in clean rooms, and evaluation to address performance discrepancies like stiction.",
       tags: [
         {
-          lang: "Computer Vision",
+          lang: "Mechanical Design",
+          color: "#e60909",
+        },
+        {
+          lang: "Micro-tech",
           color: "#00a100",
         },
         {
-          lang: "Action Recognition",
+          lang: "Microfabrication",
+          color: "#0974e6",
+        },
+      ],
+      link: "pdfs/mems.pdf",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "Rust Arbitrage Bot",
+      img_path: "mbaimclr.png",
+      date: "Fall 2023",
+      description:
+        "This project done in collaboration with a protocol on Fuel blockchain was done to pilot an arbitrage bot algorithm they had developed internally. This is a simplified version with a simple algorithm, made to test and measure performance when trying to exploit arbitrage opportunities between Binance and OKX for the LDO/USDT pair.",
+      tags: [
+        {
+          lang: "Real-time trading",
+          color: "#00a100",
+        },
+        {
+          lang: "Rust",
           color: "#7f09e6",
+        },
+        {
+          lang: "API integration",
+          color: "#e6a009",
+        },
+        {
+          lang: "Financial Programming",
+          color: "#0961e6",
+        },
+      ],
+      link: "",
+      code: "https://github.com/j0shcd/rust_arbitrage_bot",
+      linkcolor: "white",
+    },
+    {
+      title: "Valedictorian Graduation Speech",
+      img_path: "firefighter.gif",
+      date: "May 2019",
+      description:
+        "This is my valedictorian speech, that I gave at the graduation ceremony in front of over 1000 people as the representative of my year.",
+      tags: [
+        // {
+        //   lang: "Robotics",
+        //   color: "#1809e6",
+        // },
+        // {
+        //   lang: "Computer Vision",
+        //   color: "#00a100",
+        // },
+        // {
+        //   lang: "Control",
+        //   color: "#e60909",
+        // },
+        // {
+        //   lang: "Python",
+        //   color: "#0961e6",
+        // },
+      ],
+      link: "https://www.youtube.com/watch?v=a6YrTL-Uz4Y",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "Airplane prognostics",
+      img_path: "evolved.gif",
+      date: "Spring 2024",
+      description:
+        "Developed and compared multiple models to estimate remaining useful life of airplanes using 1d CNNs, CNN-LSTM, and dilated CNNs. We used the Commercial Modular Aero-Propulsion System Simulation (C-MAPSS) dataset from NASA.",
+      tags: [
+        {
+          lang: "Machine Learning",
+          color: "#1809e6",
+        },
+        {
+          lang: "Anomaly Detection",
+          color: "#00a100",
         },
         {
           lang: "Deep Learning",
           color: "#e6a009",
         },
         {
-          lang: "Python",
-          color: "#0961e6",
-        },
-        {
           lang: "PyTorch",
           color: "#Ed3437",
         },
       ],
-      link: "pdfs/mbaimclr.pdf",
-      code: "https://github.com/yseoo/MBAimCLR",
-      linkcolor: "white",
-    },
-    {
-      title: "FireFighter",
-      img_path: "firefighter.gif",
-      date: "Winter 2022",
-      description:
-        "In a controlled environment, we designed a mobile robot named SuperThymio that employs computer vision and pattern recognition to effectively navigate through a simulated city with 3D obstacles, utilizing global planning and local avoidance algorithms, as well as a Kalman filter for accurate localization, to locate and extinguish modeled fires using high-contrast components for enhanced performance.",
-      tags: [
-        {
-          lang: "Robotics",
-          color: "#1809e6",
-        },
-        {
-          lang: "Computer Vision",
-          color: "#00a100",
-        },
-        {
-          lang: "Control",
-          color: "#e60909",
-        },
-        {
-          lang: "Python",
-          color: "#0961e6",
-        },
-      ],
       link: "",
-      code: "https://github.com/yseoo/FireFighter",
-      linkcolor: "white",
-    },
-    {
-      title: "Evolved Robot",
-      img_path: "evolved.gif",
-      date: "Spring 2024",
-      description:
-        "Developed a robot by evolving its brain and morphology using a genetic algorithm. The goal was to create a robot that would learn legged locomotion through evolution and that would be able to adapt to different environments.",
-      tags: [
-        {
-          lang: "Robotics",
-          color: "#1809e6",
-        },
-        {
-          lang: "Evolutionary Algorithms",
-          color: "#00a100",
-        },
-        {
-          lang: "Prototyping",
-          color: "#e60909",
-        },
-        {
-          lang: "Simulation",
-          color: "#0961e6",
-        },
-      ],
-      link: "pdfs/evolved.pdf",
-      code: "",
+      code:
+        "https://github.com/j0shcd/ml4pm/blob/main/assignment_3/Josh_03-assignment_1dcnn_prognostics.ipynb",
       linkcolor: "white",
     },
     {
@@ -423,23 +444,15 @@ const projectcards = {
       linkcolor: "white",
     },
     {
-      title: "Pedestrian Intention Prediction",
+      title: "Anomaly Detection on Acoustic Data",
       img_path: "pedestrian.gif",
-      date: "Spring 2023",
+      date: "Fall 2024",
       description:
-        "This project propose a model to predict the intention of pedestrians in a video. The model is based on the MotionBert model and is trained and evaluated on the JAAD dataset.",
+        "This project revolved around detecting anomalies on acoustic data of a pump/valve system. From residual-based methods like measuring the reconstruction error from an autoencoder, or comparing isolation forests, and one-class SVMs, with PCA and Autoencoder features.",
       tags: [
         {
-          lang: "Computer Vision",
+          lang: "Anomaly Detection",
           color: "#00a100",
-        },
-        {
-          lang: "Action Recognition",
-          color: "#7f09e6",
-        },
-        {
-          lang: "Deep Learning",
-          color: "#e6a009",
         },
         {
           lang: "Python",
@@ -452,22 +465,22 @@ const projectcards = {
       ],
       link: "",
       code:
-        "https://github.com/yseoo/Pedestrian-Intention-Prediction/tree/main",
+        "https://github.com/j0shcd/ml4pm/blob/main/assignment_2/assignment_2.ipynb",
       linkcolor: "white",
     },
     {
-      title: "Probabilistic Trip Planner",
+      title: "Bitcoin 'Risk Metric'",
       img_path: "planner.gif",
-      date: "Spring 2023",
+      date: "Fall 2023",
       description:
-        "Developed a robust public transport route planner for Zurich using big data analytics and real-time data integration. Utilized Spark and distributed file systems to process large-scale datasets, designing predictive algorithms to optimize route reliability and efficiency within specified confidence intervals. Enhanced user experience by incorporating and interactive visualizations.",
+        "Developed a bitcoin risk metric as a side project to practice acquiring data from multiple sources, using statistical methods, manipulating data.",
       tags: [
         {
           lang: "Data Science",
           color: "#00a100",
         },
         {
-          lang: "Large-scale data",
+          lang: "API integrations",
           color: "#303030",
         },
         {
@@ -475,20 +488,20 @@ const projectcards = {
           color: "#0961e6",
         },
         {
-          lang: "Spark",
-          color: "#c47206",
+          lang: "Model development",
+          color: "#Ed3437",
         },
       ],
       link: "",
-      code: "https://github.com/yseoo/Probabilistic-Trip-Planner",
+      code: "https://github.com/j0shcd/risk-metric",
       linkcolor: "white",
     },
     {
-      title: "Autonomous Hydroponic Farm",
+      title: "Gaze-based snake game",
       img_path: "proto_farm.png",
       date: "Spring 2022",
       description:
-        "Developed a self-regulating hydroponic farm capable of managing heat, light, pH, and nutrient concentration for optimal plant growth. Crafted custom sensors for nutrient concentration and pH using basic materials.",
+        "Developed a gaze sensor capable of measuring the orientation of the eye, which sends the information to an arduino board and a custom PCB, in order to play a snake game using the gaze.",
       tags: [
         {
           lang: "Sensor based system",
@@ -524,7 +537,7 @@ const projectcards = {
         },
       ],
       link: "",
-      code: "https://github.com/yseoo/Archipelago",
+      code: "https://github.com/j0shcd/Archipelago",
       linkcolor: "white",
     },
     {
@@ -544,77 +557,11 @@ const projectcards = {
       linkcolor: "white",
     },
     {
-      title: "Conveyor Belt Waste Type Detection",
-      img_path: "waste_detection.jpg",
-      date: "Spring 2024",
-      description:
-        "Develop a real-time object detection and segmentation model to optimize recycling facility operations, ensuring sufficient performance for practical implementation. Made in collaboration with the CVLAB at EPFL and the startup WasteFlow.",
-      tags: [
-        {
-          lang: "Computer Vision",
-          color: "#00a100",
-        },
-        {
-          lang: "Object Detection",
-          color: "#7f09e6",
-        },
-        {
-          lang: "Deep Learning",
-          color: "#e6a009",
-        },
-        {
-          lang: "Python",
-          color: "#0961e6",
-        },
-        {
-          lang: "PyTorch",
-          color: "#Ed3437",
-        },
-        {
-          lang: "OpenVino",
-          color: "#08a893",
-        },
-      ],
-      link: "https://www.wasteflow.ai",
-      code: "",
-      linkcolor: "white",
-    },
-    {
-      title: "The Stellar Chronicles of History",
-      img_path: "dataviz.png",
-      date: "Spring 2024",
-      description:
-        "Developed an interactive website enabling users to explore world history through creative visualizations. Utilized basic JavaScript libraries for the front-end development and employed Python for data cleaning and processing.",
-      tags: [
-        {
-          lang: "Data Science",
-          color: "#00a100",
-        },
-        {
-          lang: "Data Visualization",
-          color: "#303030",
-        },
-        {
-          lang: "JavaScript",
-          color: "#0961e6",
-        },
-        {
-          lang: "Web Development",
-          color: "#ff4b4b",
-        },
-      ],
-      link:
-        "https://com-480-data-visualization.github.io/project-2024-DataBeez/",
-      code:
-        "https://github.com/com-480-data-visualization/project-2024-DataBeez",
-      linkcolor: "white",
-    },
-    {
-      title: "A Tale of Acting Careers",
+      title: "A Tale of Acting Careers (",
       img_path: "ada.webp",
       date: "Winter 2023",
       description:
-        "We developed a data analysis project that included creating a data storytelling website to provide insights through meaningful analysis and visualizations of the IMDB movie and CMU movie and character datasets. The project involved data cleaning, analysis, and visualization.",
+        "(GITHUB NOT FUNCTIONAL) We developed a data analysis project that included creating a data storytelling website to provide insights through meaningful analysis and visualizations of the IMDB movie and CMU movie and character datasets. The project involved data cleaning, analysis, and visualization.",
       tags: [
         {
           lang: "Data Science",
@@ -638,26 +585,55 @@ const projectcards = {
       linkcolor: "white",
     },
     {
-      title: "MEMS Project",
-      img_path: "mems.gif",
-      date: "Winter 2021",
+      title: "Rocket Recovery Ejection System",
+      img_path: "micro.png",
+      date: "Spring 2022",
       description:
-        "The project focused on developing a MEMS device capable of manipulating a micro-mirror within optical fiber paths. The device included a laterally moving actuator with locking capabilities at extended and retracted positions. The process encompassed design, simulation via COMSOL, fabrication in clean rooms, and evaluation to address performance discrepancies like stiction.",
+        "Development of the complete recovery ejection system of the Vostok rocket. It involved designing a robust system including a custom-made altimeter connected to our custom PCB, and extensive testing to ensure correct separation of the rocket during flight. The rocket successfully ccompleted a nominal flight in Summer 2022.",
       tags: [
         {
-          lang: "Mechanical Design",
-          color: "#e60909",
+          lang: "System Design",
+          color: "#c47206",
         },
         {
-          lang: "Micro-tech",
+          lang: "Testing",
+          color: "#0974e6",
+        },
+        {
+          lang: "Electronics",
+          color: "#e60909",
+        },
+      ],
+      link: "pdfs/parachutes.pdf",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title:
+        "Could the example of the Gotthard Base Tunnel inspire Thailand to reshape the future of Southeast Asia?",
+      img_path: "dataviz.png",
+      date: "Spring 2024",
+      description:
+        "Research project conducted for the Swiss Maturité, on the topic of evaluating the geopolitical, and economic impact on countries building large projects aimed at improving international trade routes. Conducted several interviews, including with former Swiss president and Transport Minister Adolf Ogi. ",
+      tags: [
+        {
+          lang: "Research",
           color: "#00a100",
         },
         {
-          lang: "Microfabrication",
-          color: "#0974e6",
+          lang: "Geopolitics",
+          color: "#303030",
+        },
+        {
+          lang: "Writing",
+          color: "#0961e6",
+        },
+        {
+          lang: "Interviewing",
+          color: "#ff4b4b",
         },
       ],
-      link: "pdfs/mems.pdf",
+      link: "pdfs/TM.pdf",
       code: "",
       linkcolor: "white",
     },
@@ -682,6 +658,30 @@ const projectcards = {
         },
       ],
       link: "pdfs/micro.pdf",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "Rocket Recovery Parachute",
+      img_path: "micro.png",
+      date: "Spring 2022",
+      description:
+        "Conception of the drogue chute for the competition project Bella Lui II of EPFL Rocket Team (which ended up winning the European Rocketry Challenge (EUROC) that year. Conducted the whole development cycle leading the recovery subsystem for the Space Race project 'Vostok', from theory to traction tests, drop tests, and integration tests.",
+      tags: [
+        {
+          lang: "System Design",
+          color: "#c47206",
+        },
+        {
+          lang: "Testing",
+          color: "#0974e6",
+        },
+        {
+          lang: "Simulation",
+          color: "#e60909",
+        },
+      ],
+      link: "pdfs/parachutes.pdf",
       code: "",
       linkcolor: "white",
     },

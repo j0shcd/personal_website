@@ -316,7 +316,7 @@ const projectcards = {
     },
     {
       title: "Rust Arbitrage Bot",
-      img_path: "mbaimclr.png",
+      img_path: "rust.gif",
       date: "Fall 2023",
       description:
         "This project done in collaboration with a protocol on Fuel blockchain was done to pilot an arbitrage bot algorithm they had developed internally. This is a simplified version with a simple algorithm, made to test and measure performance when trying to exploit arbitrage opportunities between Binance and OKX for the LDO/USDT pair.",
@@ -340,63 +340,6 @@ const projectcards = {
       ],
       link: "",
       code: "https://github.com/j0shcd/rust_arbitrage_bot",
-      linkcolor: "white",
-    },
-    {
-      title: "Valedictorian Graduation Speech",
-      img_path: "firefighter.gif",
-      date: "May 2019",
-      description:
-        "This is my valedictorian speech, that I gave at the graduation ceremony in front of over 1000 people as the representative of my year.",
-      tags: [
-        // {
-        //   lang: "Robotics",
-        //   color: "#1809e6",
-        // },
-        // {
-        //   lang: "Computer Vision",
-        //   color: "#00a100",
-        // },
-        // {
-        //   lang: "Control",
-        //   color: "#e60909",
-        // },
-        // {
-        //   lang: "Python",
-        //   color: "#0961e6",
-        // },
-      ],
-      link: "https://www.youtube.com/watch?v=a6YrTL-Uz4Y",
-      code: "",
-      linkcolor: "white",
-    },
-    {
-      title: "Airplane prognostics",
-      img_path: "evolved.gif",
-      date: "Spring 2024",
-      description:
-        "Developed and compared multiple models to estimate remaining useful life of airplanes using 1d CNNs, CNN-LSTM, and dilated CNNs. We used the Commercial Modular Aero-Propulsion System Simulation (C-MAPSS) dataset from NASA.",
-      tags: [
-        {
-          lang: "Machine Learning",
-          color: "#1809e6",
-        },
-        {
-          lang: "Anomaly Detection",
-          color: "#00a100",
-        },
-        {
-          lang: "Deep Learning",
-          color: "#e6a009",
-        },
-        {
-          lang: "PyTorch",
-          color: "#Ed3437",
-        },
-      ],
-      link: "",
-      code:
-        "https://github.com/j0shcd/ml4pm/blob/main/assignment_3/Josh_03-assignment_1dcnn_prognostics.ipynb",
       linkcolor: "white",
     },
     {
@@ -443,86 +386,86 @@ const projectcards = {
       code: "",
       linkcolor: "white",
     },
-    {
-      title: "Anomaly Detection on Acoustic Data",
-      img_path: "pedestrian.gif",
-      date: "Fall 2024",
-      description:
-        "This project revolved around detecting anomalies on acoustic data of a pump/valve system. From residual-based methods like measuring the reconstruction error from an autoencoder, or comparing isolation forests, and one-class SVMs, with PCA and Autoencoder features.",
-      tags: [
-        {
-          lang: "Anomaly Detection",
-          color: "#00a100",
-        },
-        {
-          lang: "Python",
-          color: "#0961e6",
-        },
-        {
-          lang: "PyTorch",
-          color: "#Ed3437",
-        },
-      ],
-      link: "",
-      code:
-        "https://github.com/j0shcd/ml4pm/blob/main/assignment_2/assignment_2.ipynb",
-      linkcolor: "white",
-    },
-    {
-      title: "Bitcoin 'Risk Metric'",
-      img_path: "planner.gif",
-      date: "Fall 2023",
-      description:
-        "Developed a bitcoin risk metric as a side project to practice acquiring data from multiple sources, using statistical methods, manipulating data.",
-      tags: [
-        {
-          lang: "Data Science",
-          color: "#00a100",
-        },
-        {
-          lang: "API integrations",
-          color: "#303030",
-        },
-        {
-          lang: "Python",
-          color: "#0961e6",
-        },
-        {
-          lang: "Model development",
-          color: "#Ed3437",
-        },
-      ],
-      link: "",
-      code: "https://github.com/j0shcd/risk-metric",
-      linkcolor: "white",
-    },
-    {
-      title: "Gaze-based snake game",
-      img_path: "proto_farm.png",
-      date: "Spring 2022",
-      description:
-        "Developed a gaze sensor capable of measuring the orientation of the eye, which sends the information to an arduino board and a custom PCB, in order to play a snake game using the gaze.",
-      tags: [
-        {
-          lang: "Sensor based system",
-          color: "#00a100",
-        },
-        {
-          lang: "Prototyping",
-          color: "#ff4b4b",
-        },
-        {
-          lang: "Arduino",
-          color: "#0961e6",
-        },
-      ],
-      link: "pdfs/sensor.pdf",
-      code: "",
-      linkcolor: "white",
-    },
+    // {
+    //   title: "Anomaly Detection on Acoustic Data",
+    //   img_path: "pedestrian.gif",
+    //   date: "Fall 2024",
+    //   description:
+    //     "This project revolved around detecting anomalies on acoustic data of a pump/valve system. From residual-based methods like measuring the reconstruction error from an autoencoder, or comparing isolation forests, and one-class SVMs, with PCA and Autoencoder features.",
+    //   tags: [
+    //     {
+    //       lang: "Anomaly Detection",
+    //       color: "#00a100",
+    //     },
+    //     {
+    //       lang: "Python",
+    //       color: "#0961e6",
+    //     },
+    //     {
+    //       lang: "PyTorch",
+    //       color: "#Ed3437",
+    //     },
+    //   ],
+    //   link: "",
+    //   code:
+    //     "https://github.com/j0shcd/ml4pm/blob/main/assignment_2/assignment_2.ipynb",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "Bitcoin 'Risk Metric'",
+    //   img_path: "planner.gif",
+    //   date: "Fall 2023",
+    //   description:
+    //     "Developed a bitcoin risk metric as a side project to practice acquiring data from multiple sources, using statistical methods, manipulating data.",
+    //   tags: [
+    //     {
+    //       lang: "Data Science",
+    //       color: "#00a100",
+    //     },
+    //     {
+    //       lang: "API integrations",
+    //       color: "#303030",
+    //     },
+    //     {
+    //       lang: "Python",
+    //       color: "#0961e6",
+    //     },
+    //     {
+    //       lang: "Model development",
+    //       color: "#Ed3437",
+    //     },
+    //   ],
+    //   link: "",
+    //   code: "https://github.com/j0shcd/risk-metric",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "Gaze-based snake game",
+    //   img_path: "proto_farm.png",
+    //   date: "Spring 2022",
+    //   description:
+    //     "Developed a gaze sensor capable of measuring the orientation of the eye, which sends the information to an arduino board and a custom PCB, in order to play a snake game using the gaze.",
+    //   tags: [
+    //     {
+    //       lang: "Sensor based system",
+    //       color: "#00a100",
+    //     },
+    //     {
+    //       lang: "Prototyping",
+    //       color: "#ff4b4b",
+    //     },
+    //     {
+    //       lang: "Arduino",
+    //       color: "#0961e6",
+    //     },
+    //   ],
+    //   link: "pdfs/sensor.pdf",
+    //   code: "",
+    //   linkcolor: "white",
+    // },
     {
       title: "Archipelago City Maker",
-      img_path: "archipellago.png",
+      img_path: "archipelago.png",
       date: "Spring 2020",
       description:
         "This project developed an application to build island cities with houses, production sites, and transport nodes on interconnected islands. Users can create, save, and load city layouts, ensuring logical setups. The application evaluates cities based on distance to work, balance between living and working spaces, and population capacity.",
@@ -557,11 +500,68 @@ const projectcards = {
       linkcolor: "white",
     },
     {
-      title: "A Tale of Acting Careers (",
+      title: "Airplane prognostics",
+      img_path: "prognostics.png",
+      date: "Spring 2024",
+      description:
+        "Developed and compared multiple models to estimate remaining useful life of airplanes using 1d CNNs, CNN-LSTM, and dilated CNNs. We used the Commercial Modular Aero-Propulsion System Simulation (C-MAPSS) dataset from NASA.",
+      tags: [
+        {
+          lang: "Machine Learning",
+          color: "#1809e6",
+        },
+        {
+          lang: "Anomaly Detection",
+          color: "#00a100",
+        },
+        {
+          lang: "Deep Learning",
+          color: "#e6a009",
+        },
+        {
+          lang: "PyTorch",
+          color: "#Ed3437",
+        },
+      ],
+      link: "",
+      code:
+        "https://github.com/j0shcd/ml4pm/blob/main/assignment_3/Josh_03-assignment_1dcnn_prognostics.ipynb",
+      linkcolor: "white",
+    },
+    {
+      title: "Valedictorian Graduation Speech",
+      img_path: "grad.gif",
+      date: "May 2019",
+      description:
+        "This is my valedictorian speech, that I gave at the graduation ceremony in front of over 1000 people as the representative of my year.",
+      tags: [
+        // {
+        //   lang: "Robotics",
+        //   color: "#1809e6",
+        // },
+        // {
+        //   lang: "Computer Vision",
+        //   color: "#00a100",
+        // },
+        // {
+        //   lang: "Control",
+        //   color: "#e60909",
+        // },
+        // {
+        //   lang: "Python",
+        //   color: "#0961e6",
+        // },
+      ],
+      link: "https://www.youtube.com/watch?v=a6YrTL-Uz4Y",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "A Tale of Acting Careers",
       img_path: "ada.webp",
       date: "Winter 2023",
       description:
-        "(GITHUB NOT FUNCTIONAL) We developed a data analysis project that included creating a data storytelling website to provide insights through meaningful analysis and visualizations of the IMDB movie and CMU movie and character datasets. The project involved data cleaning, analysis, and visualization.",
+        "We developed a data analysis project that included creating a data storytelling website to provide insights through meaningful analysis and visualizations of the IMDB movie and CMU movie and character datasets. The project involved data cleaning, analysis, and visualization.",
       tags: [
         {
           lang: "Data Science",
@@ -581,12 +581,12 @@ const projectcards = {
         },
       ],
       link: "https://yseoo.github.io/las-empanadas-story/",
-      code: "https://github.com/epfl-ada/ada-2023-project-lasempanadas",
+      // code: "https://github.com/epfl-ada/ada-2023-project-lasempanadas",
       linkcolor: "white",
     },
     {
       title: "Rocket Recovery Ejection System",
-      img_path: "micro.png",
+      img_path: "ejection.JPEG",
       date: "Spring 2022",
       description:
         "Development of the complete recovery ejection system of the Vostok rocket. It involved designing a robust system including a custom-made altimeter connected to our custom PCB, and extensive testing to ensure correct separation of the rocket during flight. The rocket successfully ccompleted a nominal flight in Summer 2022.",
@@ -611,10 +611,10 @@ const projectcards = {
     {
       title:
         "Could the example of the Gotthard Base Tunnel inspire Thailand to reshape the future of Southeast Asia?",
-      img_path: "dataviz.png",
+      img_path: "ogi.png",
       date: "Spring 2024",
       description:
-        "Research project conducted for the Swiss Maturité, on the topic of evaluating the geopolitical, and economic impact on countries building large projects aimed at improving international trade routes. Conducted several interviews, including with former Swiss president and Transport Minister Adolf Ogi. ",
+        "Research project conducted for the Swiss Maturité, on the topic of evaluating the geopolitical, and economic impact on countries building large projects aimed at improving international trade routes. Conducted several interviews, including with former Swiss President and Transport Minister Adolf Ogi (pictured). ",
       tags: [
         {
           lang: "Research",
@@ -635,6 +635,54 @@ const projectcards = {
       ],
       link: "pdfs/TM.pdf",
       code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "Rocket Recovery Parachute",
+      img_path: "rocket.gif",
+      date: "Spring 2022",
+      description:
+        "Conception of the drogue chute for the competition project Bella Lui II of EPFL Rocket Team (which ended up winning the European Rocketry Challenge (EUROC) that year. Conducted the whole development cycle leading the recovery subsystem for the Space Race project 'Vostok', from theory to traction tests, drop tests, and integration tests.",
+      tags: [
+        {
+          lang: "System Design",
+          color: "#c47206",
+        },
+        {
+          lang: "Testing",
+          color: "#0974e6",
+        },
+        {
+          lang: "Simulation",
+          color: "#e60909",
+        },
+      ],
+      link: "pdfs/parachutes.pdf",
+      code: "",
+      linkcolor: "white",
+    },
+    {
+      title: "Founder's Retreat",
+      img_path: "retreat.jpg",
+      date: "Spring 2024",
+      description:
+        "Founded and led hackathon centered around helping students overcome the biggest hurdle in creating valuable products: actually talking to people. The event was a huge success and our event attendance tripled for the rest of the semester. Our team also grew 30% directly after the event from participants who joined the club afterwards.",
+      tags: [
+        {
+          lang: "Market Research",
+          color: "#c47206",
+        },
+        {
+          lang: "Writing",
+          color: "#0974e6",
+        },
+        {
+          lang: "Sustainability modelling",
+          color: "#e60909",
+        },
+      ],
+      link: "pdfs/founders.pdf",
+      code: "https://www.ec-epfl-unil.org/founders-retreat",
       linkcolor: "white",
     },
     {
@@ -662,29 +710,121 @@ const projectcards = {
       linkcolor: "white",
     },
     {
-      title: "Rocket Recovery Parachute",
-      img_path: "micro.png",
-      date: "Spring 2022",
+      title: "Uzucarto SWOT Analysis",
+      img_path: "uzucarto.png",
+      date: "Spring 2024",
       description:
-        "Conception of the drogue chute for the competition project Bella Lui II of EPFL Rocket Team (which ended up winning the European Rocketry Challenge (EUROC) that year. Conducted the whole development cycle leading the recovery subsystem for the Space Race project 'Vostok', from theory to traction tests, drop tests, and integration tests.",
+        "Conducted an in-depth SWOT analysis of Uzucarto, a new pilot product of Uzufly, an EPFL spin-off. Conducted ~20 user interviews, and performed market research on the Geographic Information System (GIS) and BIM software market.",
       tags: [
         {
-          lang: "System Design",
+          lang: "Strategy",
           color: "#c47206",
         },
         {
-          lang: "Testing",
+          lang: "SWOT analysis",
           color: "#0974e6",
         },
         {
-          lang: "Simulation",
+          lang: "User Interviews",
           color: "#e60909",
         },
       ],
-      link: "pdfs/parachutes.pdf",
+      link: "pdfs/swot.pdf",
       code: "",
       linkcolor: "white",
     },
+    // {
+    //   title: "A trip to Mars and back",
+    //   img_path: "micro.png",
+    //   date: "Spring 2024",
+    //   description:
+    //     "Mini project conducted in the course with esteemed professor and past ESA Astronaut Claude Nicollier. The project mostly focused on conducting several calculations using Hohmann Transfers.",
+    //   tags: [
+    //     {
+    //       lang: "Space Mission Design",
+    //       color: "#c47206",
+    //     },
+    //   ],
+    //   link: "pdfs/space.pdf",
+    //   code: "",
+    //   linkcolor: "white",
+    // },
+    {
+      title: "Cool choices in a heating world",
+      img_path: "ipat.png",
+      date: "Spring 2024",
+      description:
+        "In-depth research project to model and evaluate the challenges and promise of the cooling industry from an emissions perspective. The project focused on analyzing the shift in emissions since the Montreal Protocol, discussing potential levers to reduce said emissions (mostly in HFCs), and offering a critical view of the strategies and proposals made during COP28 (2023) on cooling.",
+      tags: [
+        {
+          lang: "Market Research",
+          color: "#c47206",
+        },
+        {
+          lang: "Writing",
+          color: "#0974e6",
+        },
+        {
+          lang: "Sustainability modelling",
+          color: "#e60909",
+        },
+      ],
+      link: "pdfs/cooling.pdf",
+      code: "",
+      linkcolor: "white",
+    },
+    // {
+    //   title: "Inverse Optimization Project",
+    //   img_path: "micro.png",
+    //   date: "Spring 2024",
+    //   description:
+    //     "Mini-project from our convex and linear optimisation course ('Optimal Decision Making') focused on solving inverse (linear) optimisation problems.",
+    //   tags: [
+    //     {
+    //       lang: "Optimization",
+    //       color: "#c47206",
+    //     },
+    //     {
+    //       lang: "Python",
+    //       color: "#0974e6",
+    //     },
+    //     {
+    //       lang: "CVXPY",
+    //       color: "#e60909",
+    //     },
+    //   ],
+    //   link: "",
+    //   code: "https://github.com/j0shcd/ODM/blob/main/ODM2024_CourseProject_InverseOptimization.ipynb",
+    //   linkcolor: "white",
+    // },
+    // {
+    //   title: "Steel Billet OCR",
+    //   img_path: "micro.png",
+    //   date: "Fall 2023",
+    //   description:
+    //     "End to end data science project involving building an OCR model to help recognise steel billet reference numbers (we used a CNN), dat aaugmentation (using Keras), and a multitude of analyses from Discounted Cash Flow (DCF) analysis of the project, market research, quantitative cost-benefit analysis, go to market strategy, and project timeline.",
+    //   tags: [
+    //     {
+    //       lang: "Data Science for Business",
+    //       color: "#c47206",
+    //     },
+    //     {
+    //       lang: "Deep Learning",
+    //       color: "#0974e6",
+    //     },
+    //     {
+    //       lang: "Discounted Cash Flow (CDF) analysis",
+    //       color: "#e60909",
+    //     },
+    //     {
+    //       lang: "Project Management",
+    //       color: "#00a100",
+    //     },
+    //   ],
+    //   link: "pdfs/dsfb.pdf",
+    //   code: "https://github.com/j0shcd/ODM/blob/main/ODM2024_CourseProject_InverseOptimization.ipynb",
+    //   linkcolor: "white",
+    // },
   ],
 };
 

@@ -43,7 +43,7 @@ class Contact extends Component {
                   <Button
                     text="Drop a mail"
                     newTab={true}
-                    href="mailto:killian.hd@gmail.com"
+                    href="mailto:joshua@cohendumani.com"
                     theme={theme}
                   />
                 </div>

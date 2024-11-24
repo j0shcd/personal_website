@@ -85,8 +85,8 @@ const skills = {
       title: "Machine Learning & AI",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Designing and implementing machine learning models that drive results using PyTorch, TensorFlow, and Scikit-learn.",
-        "⚡ Applying advanced machine learning algorithms like CNNs, LSTMs and Autoencoders for anomaly detection, prognostics, and regression tasks.",
+        "⚡ Designing and implementing machine learning models that drive results using PyTorch, TensorFlow and Scikit-learn.",
+        "⚡ Applying advanced machine learning algorithms like CNNs, LSTMs and Autoencoders for anomaly detection, prognostics and regression tasks.",
         "⚡ Developing and integrating computer vision systems into applications, enhancing user interaction and automation.",
         "⚡ Applying transfer learning and feature extraction techniques to leverage pre-trained models for rapid development and improved performance in domain-specific tasks.",
       ],
@@ -202,7 +202,7 @@ const skills = {
       title: "Data Science & Software Engineering",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Proficient in programming languages such as Python and SQL for data manipulation, analysis, and visualization.",
+        "⚡ Proficient in programming languages such as Python and SQL for data manipulation, analysis and visualization.",
         "⚡ Skilled in statistical analysis, hypothesis testing, and experiment design for drawing insights from data.",
         "⚡ Experience with data preprocessing, cleaning, and feature engineering to prepare datasets for modeling and analysis.",
         "⚡ Knowledgable in working with and pre-processing heavily imbalanced datasets.",
@@ -283,7 +283,7 @@ const skills = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "Welcome! Here you’ll find a collection of projects that blend data science, machine learning, mechanical designs, sensor based systems, and a range of other topics. Please feel free to explore, and don’t hesitate to contact me if you have any questions or are interested in collaboration.",
+    "Welcome! Here you’ll find a collection of projects that blend data science, machine learning, mechanical designs, sensor based systems and a range of other topics. Please feel free to explore and don’t hesitate to contact me if you have any questions or are interested in collaboration.",
 };
 
 //project cards
@@ -295,7 +295,7 @@ const projectcards = {
       img_path: "mems.gif",
       date: "Winter 2021",
       description:
-        "The project focused on developing a MEMS device capable of manipulating a micro-mirror within optical fiber paths. The device included a laterally moving actuator with locking capabilities at extended and retracted positions. The process encompassed design, simulation via COMSOL, fabrication in clean rooms, and evaluation to address performance discrepancies like stiction.",
+        "The project focused on developing a MEMS device capable of manipulating a micro-mirror within optical fiber paths. The device included a laterally moving actuator with locking capabilities at extended and retracted positions. The process encompassed design, simulation via COMSOL, fabrication in clean rooms and evaluation to address performance discrepancies like stiction.",
       tags: [
         {
           lang: "Mechanical Design",
@@ -468,7 +468,7 @@ const projectcards = {
       img_path: "archipelago.png",
       date: "Spring 2020",
       description:
-        "This project developed an application to build island cities with houses, production sites, and transport nodes on interconnected islands. Users can create, save, and load city layouts, ensuring logical setups. The application evaluates cities based on distance to work, balance between living and working spaces, and population capacity.",
+        "This project developed an application to build island cities with houses, production sites, and transport nodes on interconnected islands. Users can create, save and load city layouts, ensuring logical setups. The application evaluates cities based on distance to work, balance between living and working spaces and population capacity.",
       tags: [
         {
           lang: "Application",
@@ -504,7 +504,7 @@ const projectcards = {
       img_path: "prognostics.png",
       date: "Spring 2024",
       description:
-        "Developed and compared multiple models to estimate remaining useful life of airplanes using 1d CNNs, CNN-LSTM, and dilated CNNs. We used the Commercial Modular Aero-Propulsion System Simulation (C-MAPSS) dataset from NASA.",
+        "Developed and compared multiple models to estimate remaining useful life of airplanes using 1d CNNs, CNN-LSTM and dilated CNNs. We used the Commercial Modular Aero-Propulsion System Simulation (C-MAPSS) dataset from NASA.",
       tags: [
         {
           lang: "Machine Learning",
@@ -561,7 +561,7 @@ const projectcards = {
       img_path: "ada.webp",
       date: "Winter 2023",
       description:
-        "We developed a data analysis project that included creating a data storytelling website to provide insights through meaningful analysis and visualizations of the IMDB movie and CMU movie and character datasets. The project involved data cleaning, analysis, and visualization.",
+        "We developed a data analysis project that included creating a data storytelling website to provide insights through meaningful analysis and visualizations of the IMDB movie and CMU movie and character datasets. The project involved data cleaning, analysis and visualization.",
       tags: [
         {
           lang: "Data Science",
@@ -589,7 +589,7 @@ const projectcards = {
       img_path: "ejection.JPEG",
       date: "Spring 2022",
       description:
-        "Development of the complete recovery ejection system of the Vostok rocket. It involved designing a robust system including a custom-made altimeter connected to our custom PCB, and extensive testing to ensure correct separation of the rocket during flight. The rocket successfully ccompleted a nominal flight in Summer 2022.",
+        "Development of the complete recovery ejection system of the Vostok rocket. It involved designing a robust system including a custom-made altimeter connected to our custom PCB and extensive testing to ensure correct separation of the rocket during flight. The rocket successfully ccompleted a nominal flight in Summer 2022.",
       tags: [
         {
           lang: "System Design",
@@ -614,7 +614,7 @@ const projectcards = {
       img_path: "ogi.png",
       date: "Spring 2024",
       description:
-        "Research project conducted for the Swiss Maturité, on the topic of evaluating the geopolitical, and economic impact on countries building large projects aimed at improving international trade routes. Conducted several interviews, including with former Swiss President and Transport Minister Adolf Ogi (pictured). ",
+        "Research project conducted for the Swiss Maturité, on the topic of evaluating the geopolitical and economic impact on countries building large projects aimed at improving international trade routes. Conducted several interviews, including with former Swiss President and Transport Minister Adolf Ogi (pictured). ",
       tags: [
         {
           lang: "Research",
@@ -642,7 +642,7 @@ const projectcards = {
       img_path: "rocket.gif",
       date: "Spring 2022",
       description:
-        "Conception of the drogue chute for the competition project Bella Lui II of EPFL Rocket Team (which ended up winning the European Rocketry Challenge (EUROC) that year. Conducted the whole development cycle leading the recovery subsystem for the Space Race project 'Vostok', from theory to traction tests, drop tests, and integration tests.",
+        "Conception of the drogue chute for the competition project Bella Lui II of EPFL Rocket Team (which ended up winning the European Rocketry Challenge (EUROC) that year. Conducted the whole development cycle leading the recovery subsystem for the Space Race project 'Vostok', from theory to traction tests, drop tests and integration tests.",
       tags: [
         {
           lang: "System Design",
@@ -690,7 +690,7 @@ const projectcards = {
       img_path: "micro.png",
       date: "Spring 2021",
       description:
-        "Our app, developed entirely in assembly for the second-year 'Microcontrôleurs' course at EPFL, allow the user to control room temperatures. It measures temperature, adjusts a vent via a servo motor based on user-set thresholds on an LCD interface, and alerts users with an alarm if the temperature exceeds these limits, facilitating manual adjustment.",
+        "Our app, developed entirely in assembly for the second-year 'Microcontrôleurs' course at EPFL, allow the user to control room temperatures. It measures temperature, adjusts a vent via a servo motor based on user-set thresholds on an LCD interface and alerts users with an alarm if the temperature exceeds these limits, facilitating manual adjustment.",
       tags: [
         {
           lang: "Microcontroller",
@@ -714,7 +714,7 @@ const projectcards = {
       img_path: "uzucarto.png",
       date: "Spring 2024",
       description:
-        "Conducted an in-depth SWOT analysis of Uzucarto, a new pilot product of Uzufly, an EPFL spin-off. Conducted ~20 user interviews, and performed market research on the Geographic Information System (GIS) and BIM software market.",
+        "Conducted an in-depth SWOT analysis of Uzucarto, a new pilot product of Uzufly, an EPFL spin-off. Conducted ~20 user interviews and performed market research on the Geographic Information System (GIS) and BIM software market.",
       tags: [
         {
           lang: "Strategy",
@@ -754,7 +754,7 @@ const projectcards = {
       img_path: "ipat.png",
       date: "Spring 2024",
       description:
-        "In-depth research project to model and evaluate the challenges and promise of the cooling industry from an emissions perspective. The project focused on analyzing the shift in emissions since the Montreal Protocol, discussing potential levers to reduce said emissions (mostly in HFCs), and offering a critical view of the strategies and proposals made during COP28 (2023) on cooling.",
+        "In-depth research project to model and evaluate the challenges and promise of the cooling industry from an emissions perspective. The project focused on analyzing the shift in emissions since the Montreal Protocol, discussing potential levers to reduce said emissions (mostly in HFCs) and offering a critical view of the strategies and proposals made during COP28 (2023) on cooling.",
       tags: [
         {
           lang: "Market Research",
@@ -888,7 +888,7 @@ const resumeright = {
           subtitle: "EPFL - Lausanne",
           date: "Aug 2023 - Feb 2024",
           content: [
-            "Assist professor in explaining Computer Science and programming concepts to students, and examination surveillance.",
+            "Assist professor in explaining Computer Science and programming concepts to students and examination surveillance.",
             "Help students during exercise sessions and project support sessions",
             "C++ for Microengineering and Electrical Engineering students (~40 students)",
             "Python for Civil Engineering and Material Science students (~80 students)",
@@ -899,7 +899,7 @@ const resumeright = {
           subtitle: "Space Domain (Swiss Army) - Bern, Switzerland",
           date: "Summer 2023 and 2024, Winter 2024-25",
           content: [
-            "Launching features working with Java, version control, TDD, and performance testing.",
+            "Launching features working with Java, version control, TDD and performance testing.",
           ],
         },
         {
@@ -918,7 +918,7 @@ const resumeright = {
           subtitle: "DAAV - Lausanne",
           date: "Mar 2021 - Sep 2021",
           content: [
-            "Worked at EPFL spin-off DAAV alongside my studies at EPFL to develop new and valuable skills, and learn more about real-world applications of robotics.",
+            "Worked at EPFL spin-off DAAV alongside my studies at EPFL to develop new and valuable skills and learn more about real-world applications of robotics.",
             "Established working relationships with Geneva airport, AVASAD, and SiLab, allowing DAAV to gain valuable business relationships, conduct their first real-world test and explore certification options.",
             "Conducted a dozen user interviews and compiled a report providing the founding team user insights and market validation.",
           ],
@@ -933,7 +933,7 @@ const resumeright = {
           subtitle: "EPFL-UNIL Entrepreneur Club",
           date: "Sept 2023 - Present",
           content: [
-            "Founded and led the Founder’s Retreat from conception to launch, a hackathon weekend focused on market validation. Received 120+ applications, significantly boosted visibility among students, and expanded sponsorships.",
+            "Founded and led the Founder’s Retreat from conception to launch, a hackathon weekend focused on market validation. Received 120+ applications, significantly boosted visibility among students and expanded sponsorships.",
             "Grew team from 15 to 35, resulting in a dozen events and 2x larger average attendance than previous years.",
             "Tripled our annual budget by securing 14k CHF in additional sponsorships.",
             "Put in place documentation practices and onboarding processes to ensure sustainable quality and reduce rework.",
@@ -948,8 +948,8 @@ const resumeright = {
             "Led a team of 7 student partners, increasing the number of sourced startups by 50%.",
             "Oversaw investments of Founderful Campus’ 25k CHF convertible loan in Helix Robotics and Circelec.",
             "Sourced 75+ eligible startups, leading 42 startup calls.",
-            "Evaluated startups by analyzing market trends, competition, and user requirements to inform investment decisions.",
-            "Fellow in the baby VC 2024 DACH cohort, a 10-week fellowship with top European VCs, and a community of tech enthusiasts.",
+            "Evaluated startups by analyzing market trends, competition and user requirements to inform investment decisions.",
+            "Fellow in the baby VC 2024 DACH cohort, a 10-week fellowship with top European VCs and a community of tech enthusiasts.",
           ],
         },
         {

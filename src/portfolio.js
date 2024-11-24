@@ -858,7 +858,7 @@ const resumeleft = {
         date: "Sep 2019 - Jun 2022",
         content: [
           "Linear Algebra, Calculus I-IV, Physics (Mechanics, Thermodynamics, Electromagnetism), Chemistry, Object Oriented Programming (C++), Experimental Statistics, Computer Science Theory, Analog Devices, Micro-Mechanical engineering, Electronics, Material Science, Embedded Systems, Mechanism Design.",
-          "🔸 GPA: 4.83/6",
+          "🔸 GPA: 4.73/6",
         ],
       },
       {

@@ -1,0 +1,9 @@
+# Turn on rewrites.
+RewriteEngine On
+
+# Don't touch actual files and directories.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite everything else to index.html
+RewriteRule ^ index.html [L]

@@ -828,152 +828,152 @@ const projectcards = {
   ],
 };
 
-const resumeleft = {
-  left: {
-    title: ["Education"],
-    data: [
-      {
-        title:
-          "MSc in Technology Management and Data Science, with a Robotics and Microengineering minor",
-        subtitle:
-          "École polytechnique Fédérale de Lausanne (EPFL) - Lausanne, Switzerland",
-        date: "Sep 2023 - Present",
-        content: [
-          "Coursework and Projects in Machine Learning, Deep Learning, Anomaly Detection, Modern Natural Language Processing, Optimisation and Optimal Decision Making, DevOps, Applied Data Analysis, Data Visualisation, Data cleaning, AI Product Management, Business Law, Applied Probability, Stochastic Processes and Markov Chains, Financial and Cost Accounting, Econometrics, Principles of Finance & Microeconomics.",
-          "🔸 current GPA: 5.3/6",
-        ],
-      },
-      {
-        title: "Academic Exchange",
-        subtitle: "Royal Institute of Technology (KTH) - Stockholm, Sweden",
-        date: "Aug 2021 - Jun 2022",
-        content: [
-          "Signal/Stochastic Processing, Intro to Robotics & ROS, Automatic Control, MEMS, Sensor based systems, Machine Learning and Deep Learning, Matlab.",
-        ],
-      },
-      {
-        title: "BSc in Microengineering",
-        subtitle:
-          "École polytechnique Fédérale de Lausanne (EPFL) - Lausanne, Switzerland",
-        date: "Sep 2019 - Jun 2022",
-        content: [
-          "Linear Algebra, Calculus I-IV, Physics (Mechanics, Thermodynamics, Electromagnetism), Chemistry, Object Oriented Programming (C++), Experimental Statistics, Computer Science Theory, Analog Devices, Micro-Mechanical engineering, Electronics, Material Science, Embedded Systems, Mechanism Design.",
-          "🔸 GPA: 4.73/6",
-        ],
-      },
-      {
-        title: "Maturité Fédérale, Physics and Applied Mathematics Orientation",
-        subtitle: "Collège Du Léman - Versoix, Switzerland",
-        date: "Sep 2016 - Jul 2019",
-        content: [
-          "Competitive Swiss High School Diploma with an orientation in Physics and Applied Maths. French C2, English C2, and German B1.",
-          "Valedictorian (2019); delivering graduation speech to an audience of over 1'000.",
-          "Awarded Scholarship of Academic Merit (4 recipients out of 1200 students).",
-          "Participated in 5 Model United Nations around Europe, finalist spot in the BruMUN declamation contest.",
-          "🔸 Grade: 5.58/6, highest score for class of 2019.",
-        ],
-      },
-    ],
-  },
-};
+// const resumeleft = {
+//   left: {
+//     title: ["Education"],
+//     data: [
+//       {
+//         title:
+//           "MSc in Technology Management and Data Science, with a Robotics and Microengineering minor",
+//         subtitle:
+//           "École polytechnique Fédérale de Lausanne (EPFL) - Lausanne, Switzerland",
+//         date: "Sep 2023 - Present",
+//         content: [
+//           "Coursework and Projects in Machine Learning, Deep Learning, Anomaly Detection, Modern Natural Language Processing, Optimisation and Optimal Decision Making, DevOps, Applied Data Analysis, Data Visualisation, Data cleaning, AI Product Management, Business Law, Applied Probability, Stochastic Processes and Markov Chains, Financial and Cost Accounting, Econometrics, Principles of Finance & Microeconomics.",
+//           "🔸 current GPA: 5.3/6",
+//         ],
+//       },
+//       {
+//         title: "Academic Exchange",
+//         subtitle: "Royal Institute of Technology (KTH) - Stockholm, Sweden",
+//         date: "Aug 2021 - Jun 2022",
+//         content: [
+//           "Signal/Stochastic Processing, Intro to Robotics & ROS, Automatic Control, MEMS, Sensor based systems, Machine Learning and Deep Learning, Matlab.",
+//         ],
+//       },
+//       {
+//         title: "BSc in Microengineering",
+//         subtitle:
+//           "École polytechnique Fédérale de Lausanne (EPFL) - Lausanne, Switzerland",
+//         date: "Sep 2019 - Jun 2022",
+//         content: [
+//           "Linear Algebra, Calculus I-IV, Physics (Mechanics, Thermodynamics, Electromagnetism), Chemistry, Object Oriented Programming (C++), Experimental Statistics, Computer Science Theory, Analog Devices, Micro-Mechanical engineering, Electronics, Material Science, Embedded Systems, Mechanism Design.",
+//           "🔸 GPA: 4.73/6",
+//         ],
+//       },
+//       {
+//         title: "Maturité Fédérale, Physics and Applied Mathematics Orientation",
+//         subtitle: "Collège Du Léman - Versoix, Switzerland",
+//         date: "Sep 2016 - Jul 2019",
+//         content: [
+//           "Competitive Swiss High School Diploma with an orientation in Physics and Applied Maths. French C2, English C2, and German B1.",
+//           "Valedictorian (2019); delivering graduation speech to an audience of over 1'000.",
+//           "Awarded Scholarship of Academic Merit (4 recipients out of 1200 students).",
+//           "Participated in 5 Model United Nations around Europe, finalist spot in the BruMUN declamation contest.",
+//           "🔸 Grade: 5.58/6, highest score for class of 2019.",
+//         ],
+//       },
+//     ],
+//   },
+// };
 
-const resumeright = {
-  right: [
-    {
-      title: ["Professional Experience"],
-      data: [
-        {
-          title:
-            "Teaching assistant in Programming (C++ and Python) for EPFL 1st year students",
-          subtitle: "EPFL - Lausanne",
-          date: "Aug 2023 - Feb 2024",
-          content: [
-            "Assist professor in explaining Computer Science and programming concepts to students and examination surveillance.",
-            "Help students during exercise sessions and project support sessions",
-            "C++ for Microengineering and Electrical Engineering students (~40 students)",
-            "Python for Civil Engineering and Material Science students (~80 students)",
-          ],
-        },
-        {
-          title: "Software Engineer",
-          subtitle: "Space Domain (Swiss Army) - Bern, Switzerland",
-          date: "Summer 2023 and 2024, Winter 2024-25",
-          content: [
-            "Launching features working with Java, version control, TDD and performance testing.",
-          ],
-        },
-        {
-          title: "Research Software Engineer (Internship)",
-          subtitle: "Intel Labs - Munich (remote)",
-          date: "Aug 2022 - Jan 2023 (6 months)",
-          content: [
-            "Implemented an IO pipeline using Test-Driven Development (TDD) principles, increasing throughput by 80%.",
-            "Developed a Python-based interface for on-chip experimentation using event-based data for our researcher community.",
-            "Led performance testing efforts for the legacy and newly developed IO pipeline.",
-            "Contributed to an event-based hand tracking algorithm on Loihi 2’s Open Source Neuromorphic Framework Lava, with heavy use of Git and Unix.",
-          ],
-        },
-        {
-          title: "Business Development (Part-time)",
-          subtitle: "DAAV - Lausanne",
-          date: "Mar 2021 - Sep 2021",
-          content: [
-            "Worked at EPFL spin-off DAAV alongside my studies at EPFL to develop new and valuable skills and learn more about real-world applications of robotics.",
-            "Established working relationships with Geneva airport, AVASAD, and SiLab, allowing DAAV to gain valuable business relationships, conduct their first real-world test and explore certification options.",
-            "Conducted a dozen user interviews and compiled a report providing the founding team user insights and market validation.",
-          ],
-        },
-      ],
-    },
-    {
-      title: ["Extracurricular Activities"],
-      data: [
-        {
-          title: "President",
-          subtitle: "EPFL-UNIL Entrepreneur Club",
-          date: "Sept 2023 - Present",
-          content: [
-            "Founded and led the Founder’s Retreat from conception to launch, a hackathon weekend focused on market validation. Received 120+ applications, significantly boosted visibility among students and expanded sponsorships.",
-            "Grew team from 15 to 35, resulting in a dozen events and 2x larger average attendance than previous years.",
-            "Tripled our annual budget by securing 14k CHF in additional sponsorships.",
-            "Put in place documentation practices and onboarding processes to ensure sustainable quality and reduce rework.",
-          ],
-        },
-        {
-          title: "Student Managing Partner",
-          subtitle: "Founderful Campus",
-          date: "Jan 2024 - Present",
-          content: [
-            "Handpicked by Founderful management to lead the EPFL team as Managing Partner after 2 months.",
-            "Led a team of 7 student partners, increasing the number of sourced startups by 50%.",
-            "Oversaw investments of Founderful Campus’ 25k CHF convertible loan in Helix Robotics and Circelec.",
-            "Sourced 75+ eligible startups, leading 42 startup calls.",
-            "Evaluated startups by analyzing market trends, competition and user requirements to inform investment decisions.",
-            "Fellow in the baby VC 2024 DACH cohort, a 10-week fellowship with top European VCs and a community of tech enthusiasts.",
-          ],
-        },
-        {
-          title: "Blockchain Student Association member",
-          subtitle: "",
-          date: "Sep 2023 - Jan 2024",
-          content: [
-            "Started working on an arbitrage bot coded in Rust for a project with a protocol on the Fuel blockchain.",
-          ],
-        },
-        {
-          title: "Recover Team Leader",
-          subtitle: "EPFL Rocket Team",
-          date: "Sep 2020 - Sep 2021",
-          content: [
-            "Successfully completed a nominal flight, contributing to a 1st-place finish in the European Rocketry Challenge.",
-            "Designed & manufactured parachute and ejection system of a L2 dual event rocket from scratch, using custom PCB and C++ code. Organized drop tests in Crans-Montana and Sion airport.",
-            "Led a team of 7 to build out a complete recovery system, coordinating with other subsystems (structure, avionics).",
-          ],
-        },
-      ],
-    },
-  ],
-};
+// const resumeright = {
+//   right: [
+//     {
+//       title: ["Professional Experience"],
+//       data: [
+//         {
+//           title:
+//             "Teaching assistant in Programming (C++ and Python) for EPFL 1st year students",
+//           subtitle: "EPFL - Lausanne",
+//           date: "Aug 2023 - Feb 2024",
+//           content: [
+//             "Assist professor in explaining Computer Science and programming concepts to students and examination surveillance.",
+//             "Help students during exercise sessions and project support sessions",
+//             "C++ for Microengineering and Electrical Engineering students (~40 students)",
+//             "Python for Civil Engineering and Material Science students (~80 students)",
+//           ],
+//         },
+//         {
+//           title: "Software Engineer",
+//           subtitle: "Space Domain (Swiss Army) - Bern, Switzerland",
+//           date: "Summer 2023 and 2024, Winter 2024-25",
+//           content: [
+//             "Launching features working with Java, version control, TDD and performance testing.",
+//           ],
+//         },
+//         {
+//           title: "Research Software Engineer (Internship)",
+//           subtitle: "Intel Labs - Munich (remote)",
+//           date: "Aug 2022 - Jan 2023 (6 months)",
+//           content: [
+//             "Implemented an IO pipeline using Test-Driven Development (TDD) principles, increasing throughput by 80%.",
+//             "Developed a Python-based interface for on-chip experimentation using event-based data for our researcher community.",
+//             "Led performance testing efforts for the legacy and newly developed IO pipeline.",
+//             "Contributed to an event-based hand tracking algorithm on Loihi 2’s Open Source Neuromorphic Framework Lava, with heavy use of Git and Unix.",
+//           ],
+//         },
+//         {
+//           title: "Business Development (Part-time)",
+//           subtitle: "DAAV - Lausanne",
+//           date: "Mar 2021 - Sep 2021",
+//           content: [
+//             "Worked at EPFL spin-off DAAV alongside my studies at EPFL to develop new and valuable skills and learn more about real-world applications of robotics.",
+//             "Established working relationships with Geneva airport, AVASAD, and SiLab, allowing DAAV to gain valuable business relationships, conduct their first real-world test and explore certification options.",
+//             "Conducted a dozen user interviews and compiled a report providing the founding team user insights and market validation.",
+//           ],
+//         },
+//       ],
+//     },
+//     {
+//       title: ["Extracurricular Activities"],
+//       data: [
+//         {
+//           title: "President",
+//           subtitle: "EPFL-UNIL Entrepreneur Club",
+//           date: "Sept 2023 - Present",
+//           content: [
+//             "Founded and led the Founder’s Retreat from conception to launch, a hackathon weekend focused on market validation. Received 120+ applications, significantly boosted visibility among students and expanded sponsorships.",
+//             "Grew team from 15 to 35, resulting in a dozen events and 2x larger average attendance than previous years.",
+//             "Tripled our annual budget by securing 14k CHF in additional sponsorships.",
+//             "Put in place documentation practices and onboarding processes to ensure sustainable quality and reduce rework.",
+//           ],
+//         },
+//         {
+//           title: "Student Managing Partner",
+//           subtitle: "Founderful Campus",
+//           date: "Jan 2024 - Present",
+//           content: [
+//             "Handpicked by Founderful management to lead the EPFL team as Managing Partner after 2 months.",
+//             "Led a team of 7 student partners, increasing the number of sourced startups by 50%.",
+//             "Oversaw investments of Founderful Campus’ 25k CHF convertible loan in Helix Robotics and Circelec.",
+//             "Sourced 75+ eligible startups, leading 42 startup calls.",
+//             "Evaluated startups by analyzing market trends, competition and user requirements to inform investment decisions.",
+//             "Fellow in the baby VC 2024 DACH cohort, a 10-week fellowship with top European VCs and a community of tech enthusiasts.",
+//           ],
+//         },
+//         {
+//           title: "Blockchain Student Association member",
+//           subtitle: "",
+//           date: "Sep 2023 - Jan 2024",
+//           content: [
+//             "Started working on an arbitrage bot coded in Rust for a project with a protocol on the Fuel blockchain.",
+//           ],
+//         },
+//         {
+//           title: "Recover Team Leader",
+//           subtitle: "EPFL Rocket Team",
+//           date: "Sep 2020 - Sep 2021",
+//           content: [
+//             "Successfully completed a nominal flight, contributing to a 1st-place finish in the European Rocketry Challenge.",
+//             "Designed & manufactured parachute and ejection system of a L2 dual event rocket from scratch, using custom PCB and C++ code. Organized drop tests in Crans-Montana and Sion airport.",
+//             "Led a team of 7 to build out a complete recovery system, coordinating with other subsystems (structure, avionics).",
+//           ],
+//         },
+//       ],
+//     },
+//   ],
+// };
 
 //certificate cards
 // const certifications = {
@@ -1133,6 +1133,6 @@ export {
   contactPageData,
   projectcards,
   //certifications,
-  resumeleft,
-  resumeright,
+  // resumeleft,
+  // resumeright,
 };
